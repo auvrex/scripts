@@ -1,13 +1,4 @@
 
-
-local notifSound = Instance.new("Sound",workspace)
-	notifSound.PlaybackSpeed = 1.5
-	notifSound.Volume = 0.15
-	notifSound.SoundId = "rbxassetid://170765130"
-	notifSound.PlayOnRemove = true
-	notifSound:Destroy()
-	game.StarterGui:SetCore("SendNotification", {Title = "Loader", Text = "Gui Successfully Loaded", Icon = "rbxassetid://505845268", Duration = 30, Button1 = "yes"})
-
 local ScreenGui = Instance.new("ScreenGui")
 local _1Page = Instance.new("Frame")
 local tpq = Instance.new("TextButton")
@@ -2389,3 +2380,5 @@ Open.MouseButton1Down:connect(function()
 	_1Page.Visible = true
 	Open.Visible = false
 end)
+
+
