@@ -91,6 +91,7 @@ neverdelete.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 _1Page.Name = "1Page"
 _1Page.Parent = neverdelete
+_1Page.Active = true
 _1Page.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 _1Page.BorderColor3 = Color3.fromRGB(34, 34, 34)
 _1Page.Position = UDim2.new(0.293829143, 0, 0.284109145, 0)
@@ -478,6 +479,7 @@ _2Page.BorderColor3 = Color3.fromRGB(34, 34, 34)
 _2Page.Position = UDim2.new(0.293829143, 0, 0.284109145, 0)
 _2Page.Size = UDim2.new(0, 392, 0, 268)
 _2Page.Visible = false
+_2Page.Active = true
 _2Page.Draggable = true
 
 TextButton_18.Parent = _2Page
@@ -1168,6 +1170,7 @@ _3Page.BorderColor3 = Color3.fromRGB(34, 34, 34)
 _3Page.Position = UDim2.new(0.293829143, 0, 0.284109145, 0)
 _3Page.Size = UDim2.new(0, 392, 0, 268)
 _3Page.Visible = false
+_3Page.Active = true
 _3Page.Draggable = true
 
 TextButton_31.Parent = _3Page
@@ -1951,6 +1954,7 @@ MiscPage.BorderColor3 = Color3.fromRGB(34, 34, 34)
 MiscPage.Position = UDim2.new(0.293829143, 0, 0.284109145, 0)
 MiscPage.Size = UDim2.new(0, 392, 0, 268)
 MiscPage.Visible = false
+MiscPage.Active = true
 MiscPage.Draggable = true
 
 TextButton_48.Parent = MiscPage
@@ -2251,6 +2255,8 @@ R6onlypage.BorderColor3 = Color3.fromRGB(34, 34, 34)
 R6onlypage.Position = UDim2.new(0.293829143, 0, 0.284109145, 0)
 R6onlypage.Size = UDim2.new(0, 392, 0, 268)
 R6onlypage.Visible = false
+R6onlypage.Active = true
+R6onlypage.Draggable = true
 
 
 TextButton_56.Parent = R6onlypage
@@ -2340,7 +2346,8 @@ TextButton_62.Text = "PAGE 1"
 TextButton_62.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_62.TextSize = 15.000
 TextButton_62.MouseButton1Down:connect(function()
-	
+	_1Page.Visible = true
+	R6onlypage.Visible = false
 end)
 
 TextButton_63.Parent = R6onlypage
@@ -2353,7 +2360,8 @@ TextButton_63.Text = "PAGE 2"
 TextButton_63.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_63.TextSize = 15.000
 TextButton_63.MouseButton1Down:connect(function()
-	
+	_2Page.Visible = true
+	R6onlypage.Visible = false
 end)
 
 TextButton_64.Parent = R6onlypage
@@ -2366,7 +2374,8 @@ TextButton_64.Text = "PAGE 3"
 TextButton_64.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_64.TextSize = 15.000
 TextButton_64.MouseButton1Down:connect(function()
-	
+	R6onlypage.Visible = false
+	_3Page.Visible = true
 end)
 
 TextButton_65.Parent = R6onlypage
@@ -2379,7 +2388,8 @@ TextButton_65.Text = "MISC"
 TextButton_65.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_65.TextSize = 15.000
 TextButton_65.MouseButton1Down:connect(function()
-	
+	MiscPage.Visible = true
+	R6onlypage.Visible = true
 end)
 
 TextButton_66.Parent = R6onlypage
@@ -2392,7 +2402,8 @@ TextButton_66.Text = "X"
 TextButton_66.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_66.TextSize = 16.000
 TextButton_66.MouseButton1Down:connect(function()
-	
+Open.Visible = true
+R6onlypage.Visible = false
 end)
 
 TextButton_67.Parent = R6onlypage
