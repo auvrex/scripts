@@ -2389,7 +2389,7 @@ TextButton_65.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_65.TextSize = 15.000
 TextButton_65.MouseButton1Down:connect(function()
 	MiscPage.Visible = true
-	R6onlypage.Visible = true
+	R6onlypage.Visible = false
 end)
 
 TextButton_66.Parent = R6onlypage
