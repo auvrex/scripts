@@ -175,7 +175,15 @@ TextButton_6.Text = "ALT+CLICK"
 TextButton_6.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_6.TextSize = 15.000
 TextButton_6.MouseButton1Down:connect(function()
-	local Plr = game:GetService("Players").LocalPlayer	local Mouse = Plr:GetMouse()	Mouse.Button1Down:connect(function()		if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftAlt) then return end		if not Mouse.Target then return end		Mouse.Target:Destroy()	end)
+	local Plr = game:GetService("Players").LocalPlayer
+	local Mouse = Plr:GetMouse()
+
+	Mouse.Button1Down:connect(function()
+		if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftAlt) then return end
+		if not Mouse.Target then return end
+		Mouse.Target:Destroy()
+	end)
+		
 end)
 
 TextButton_7.Parent = _1Page
@@ -212,7 +220,7 @@ TextButton_9.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_9.Position = UDim2.new(0, 0, 0.768656731, 0)
 TextButton_9.Size = UDim2.new(0, 56, 0, 31)
 TextButton_9.Font = Enum.Font.GothamBlack
-TextButton_9.Text = "R6 ONLY"
+TextButton_9.Text = "PAGE 4"
 TextButton_9.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_9.TextSize = 14.000
 TextButton_9.TextWrapped = true
@@ -272,8 +280,28 @@ TextButton_13.Text = "TP [Q]"
 TextButton_13.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_13.TextSize = 15.000
 TextButton_13.MouseButton1Down:connect(function()
-local plr = game.Players.LocalPlayer hum = plr.Character.HumanoidRootPar	mouse = plr:GetMouse()  mouse.KeyDown:connect(function(key)		if key == "q" then		if mouse.Target then				hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)			end		end	end)		
-end)
+		local plr = game.Players.LocalPlayer
+ 
+	hum = plr.Character.HumanoidRootPart
+ 
+	mouse = plr:GetMouse()
+ 
+ 
+ 
+	mouse.KeyDown:connect(function(key)
+ 
+		if key == "q" then
+ 
+			if mouse.Target then
+ 
+				hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)
+ 
+			end
+ 
+		end
+	end)		
+	
+	end)
 
 TextButton_14.Parent = _1Page
 TextButton_14.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
@@ -1068,7 +1096,7 @@ TextButton_24.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_24.Position = UDim2.new(0, 0, 0.768656731, 0)
 TextButton_24.Size = UDim2.new(0, 56, 0, 31)
 TextButton_24.Font = Enum.Font.GothamBlack
-TextButton_24.Text = "R6 ONLY"
+TextButton_24.Text = "PAGE 4"
 TextButton_24.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_24.TextSize = 14.000
 TextButton_24.TextWrapped = true
@@ -1541,7 +1569,7 @@ TextButton_39.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_39.Position = UDim2.new(0, 0, 0.768656731, 0)
 TextButton_39.Size = UDim2.new(0, 56, 0, 31)
 TextButton_39.Font = Enum.Font.GothamBlack
-TextButton_39.Text = "R6 ONLY"
+TextButton_39.Text = "PAGE 4"
 TextButton_39.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_39.TextSize = 14.000
 TextButton_39.TextWrapped = true
@@ -1990,7 +2018,7 @@ TextButton_50.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_50.Position = UDim2.new(0, 0, 0.768656731, 0)
 TextButton_50.Size = UDim2.new(0, 56, 0, 31)
 TextButton_50.Font = Enum.Font.GothamBlack
-TextButton_50.Text = "R6 ONLY"
+TextButton_50.Text = "PAGE 4"
 TextButton_50.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_50.TextSize = 14.000
 TextButton_50.TextWrapped = true
@@ -2425,12 +2453,11 @@ TextButton_68.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_68.Position = UDim2.new(0.433673382, 0, 0.0485074632, 0)
 TextButton_68.Size = UDim2.new(0, 97, 0, 62)
 TextButton_68.Font = Enum.Font.GothamBlack
-TextButton_68.Text = "XESTER"
+TextButton_68.Text = "ISLAND"
 TextButton_68.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_68.TextSize = 15.000
 TextButton_68.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/B5Pq5RFD", true))()
-
+loadstring(game:HttpGet("https://pastebin.com/raw/NuBwmTt3", true))()
 end)
 
 TextButton_69.Parent = R6onlypage
@@ -2439,11 +2466,11 @@ TextButton_69.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_69.Position = UDim2.new(0.186224416, 0, 0.0485074632, 0)
 TextButton_69.Size = UDim2.new(0, 97, 0, 62)
 TextButton_69.Font = Enum.Font.GothamBlack
-TextButton_69.Text = "CADUCUS"
+TextButton_69.Text = "e"
 TextButton_69.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_69.TextSize = 15.000
 TextButton_69.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/LH4vJeWM", true))()
+	
 end)
 
 TextButton_70.Parent = R6onlypage
@@ -2452,11 +2479,11 @@ TextButton_70.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_70.Position = UDim2.new(0.681122363, 0, 0.712686539, 0)
 TextButton_70.Size = UDim2.new(0, 97, 0, 63)
 TextButton_70.Font = Enum.Font.GothamBlack
-TextButton_70.Text = "RUSSIAN"
+TextButton_70.Text = "e"
 TextButton_70.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_70.TextSize = 15.000
 TextButton_70.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/7ckx5azC", true))()
+	
 end)
 
 TextButton_71.Parent = R6onlypage
