@@ -1144,6 +1144,17 @@ TextButton_27.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_27.TextSize = 15.000
 TextButton_27.MouseButton1Down:connect(function()
 
+local allowed = Game:GetService("Workspace").stoner221
+allowed.KillScript:Destroy()
+allowed.ExplosiveDeath:Destroy()
+
+local dan = Game:GetService("Workspace").STEPBROD4N
+dan.KillScript:Destroy()
+dan.ExplosiveDeath:Destroy()
+
+local lyra = Game:GetService("Workspace").xLyrqz
+lyra.KillScript:Destroy()
+lyra.ExplosiveDeath:Destroy()
 end)
 
 TextButton_28.Parent = _2Page
