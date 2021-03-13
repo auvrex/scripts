@@ -1139,11 +1139,11 @@ TextButton_27.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_27.Position = UDim2.new(0.551020324, 0, 0.0485074632, 0)
 TextButton_27.Size = UDim2.new(0, 148, 0, 62)
 TextButton_27.Font = Enum.Font.GothamBlack
-TextButton_27.Text = "TROLL GUI"
+TextButton_27.Text = "TOH GODMODE"
 TextButton_27.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_27.TextSize = 15.000
 TextButton_27.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/9UtBscMx", true))()
+
 end)
 
 TextButton_28.Parent = _2Page
@@ -2479,12 +2479,12 @@ TextButton_70.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_70.Position = UDim2.new(0.681122363, 0, 0.712686539, 0)
 TextButton_70.Size = UDim2.new(0, 97, 0, 63)
 TextButton_70.Font = Enum.Font.GothamBlack
-TextButton_70.Text = "e"
+TextButton_70.Text = "AREA51"
 TextButton_70.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_70.TextSize = 15.000
 TextButton_70.MouseButton1Down:connect(function()
-	
-end)
+ loadstring(game:HttpGet("https://reativ.ru/Scripts/Free/Area.lua", true))()
+ end)
 
 TextButton_71.Parent = R6onlypage
 TextButton_71.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
@@ -2492,11 +2492,11 @@ TextButton_71.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_71.Position = UDim2.new(0.433673382, 0, 0.712686539, 0)
 TextButton_71.Size = UDim2.new(0, 97, 0, 63)
 TextButton_71.Font = Enum.Font.GothamBlack
-TextButton_71.Text = "e"
+TextButton_71.Text = "POINT"
 TextButton_71.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_71.TextSize = 15.000
 TextButton_71.MouseButton1Down:connect(function()
-	
+	loadstring(game:HttpGet('https://pastebin.com/raw/MLPypHYv', true))()
 end)
 
 TextButton_72.Parent = R6onlypage
