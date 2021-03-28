@@ -316,9 +316,9 @@ TextButton_19.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_19.Position = UDim2.new(0.186224416, 0, 0.279850751, 0)
 TextButton_19.Size = UDim2.new(0, 143, 0, 61)
 TextButton_19.Font = Enum.Font.GothamBlack
-TextButton_19.Text = "e"
+TextButton_19.Text = "PP (HAVE 9 HATS)"
 TextButton_19.TextColor3 = Color3.fromRGB(0, 8, 179)
-TextButton_19.TextSize = 15.000
+TextButton_19.TextSize = 14.000
 
 
 TextButton_20.Parent = _2Page
@@ -771,7 +771,7 @@ TextButton_57.BorderColor3 = Color3.fromRGB(20, 20, 20)
 TextButton_57.Position = UDim2.new(0.433673382, 0, 0.279850751, 0)
 TextButton_57.Size = UDim2.new(0, 97, 0, 61)
 TextButton_57.Font = Enum.Font.GothamBlack
-TextButton_57.Text = "PP"
+TextButton_57.Text = "e"
 TextButton_57.TextColor3 = Color3.fromRGB(0, 8, 179)
 TextButton_57.TextSize = 15.000
 
@@ -1231,7 +1231,7 @@ TextButton_18.MouseButton1Down:connect(function()
 end)
 
 TextButton_19.MouseButton1Down:connect(function()
-
+loadstring(game:HttpGet(("https://pastebin.com/raw/Kb0xnjEZ"), true))()
 end)
 
 TextButton_20.MouseButton1Down:connect(function()
@@ -2238,7 +2238,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/RY9cBbdG",true))()
 end)
 
 TextButton_57.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Kb0xnjEZ",true))()
+
 end)
 
 TextButton_58.MouseButton1Down:connect(function()
