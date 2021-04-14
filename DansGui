@@ -2159,11 +2159,12 @@ gfr.Position = UDim2.new(0.680904508, 0, 0.276223779, 0)
 gfr.Size = UDim2.new(0, 102, 0, 61)
 gfr.ZIndex = 3
 gfr.Font = Enum.Font.GothamBlack
-gfr.Text = "none"
+gfr.Text = "FNF"
 gfr.TextColor3 = Color3.fromRGB(255, 255, 255)
 gfr.TextSize = 14.000
 gfr.MouseButton1Down:connect(function()
-
+_G.Enabled = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Skribb11es/Random-Releases/main/BasicallyFNFAutoPlay", true))()
 end)
 TextButton_Roundify_12px_51.Name = "TextButton_Roundify_12px"
 TextButton_Roundify_12px_51.Parent = gfr
