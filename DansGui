@@ -1015,7 +1015,7 @@ owlhub.Text = "OWLHUB"
 owlhub.TextColor3 = Color3.fromRGB(255, 255, 255)
 owlhub.TextSize = 14.000
 owlhub.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE", true))()	
+	loadstring(game:HttpGet("https://pastebin.com/raw/7XDQCpff", true))()	
 
 end)
 TextButton_Roundify_12px_19.Name = "TextButton_Roundify_12px"
