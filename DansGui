@@ -2197,7 +2197,7 @@ dvc.Text = "none"
 dvc.TextColor3 = Color3.fromRGB(255, 255, 255)
 dvc.TextSize = 14.000
 dvc.MouseButton1Down:connect(function()
-
+loadstring(game:HttpGet("https://pastebin.com/raw/cEwtwKZR", true))()
 end)
 TextButton_Roundify_12px_52.Name = "TextButton_Roundify_12px"
 TextButton_Roundify_12px_52.Parent = dvc
@@ -2424,6 +2424,7 @@ searf.TextSize = 14.000
 searf.MouseButton1Down:connect(function()
 
 end)
+
 TextButton_Roundify_12px_59.Name = "TextButton_Roundify_12px"
 TextButton_Roundify_12px_59.Parent = searf
 TextButton_Roundify_12px_59.Active = true
