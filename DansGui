@@ -2193,11 +2193,11 @@ dvc.Position = UDim2.new(0.680904508, 0, 0.489510447, 0)
 dvc.Size = UDim2.new(0, 102, 0, 61)
 dvc.ZIndex = 3
 dvc.Font = Enum.Font.GothamBlack
-dvc.Text = "none"
+dvc.Text = "PETSIM X"
 dvc.TextColor3 = Color3.fromRGB(255, 255, 255)
 dvc.TextSize = 14.000
 dvc.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/cEwtwKZR", true))()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
 end)
 TextButton_Roundify_12px_52.Name = "TextButton_Roundify_12px"
 TextButton_Roundify_12px_52.Parent = dvc
