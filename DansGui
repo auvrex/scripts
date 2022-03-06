@@ -2200,7 +2200,7 @@ dvc.Text = "PETSIM X"
 dvc.TextColor3 = Color3.fromRGB(255, 255, 255)
 dvc.TextSize = 14.000
 dvc.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/not-weuz/Lua/main/petsimx.lua"))()
 end)
 TextButton_Roundify_12px_52.Name = "TextButton_Roundify_12px"
 TextButton_Roundify_12px_52.Parent = dvc
