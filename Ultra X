@@ -1,0 +1,3626 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Main = Instance.new("ScreenGui")
+local MainPage = Instance.new("ImageLabel")
+local Page1 = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local Page2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local Page3 = Instance.new("TextButton")
+local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
+local Page4 = Instance.new("TextButton")
+local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
+local Page5 = Instance.new("TextButton")
+local TextButton_Roundify_12px_5 = Instance.new("ImageLabel")
+local _1Page = Instance.new("ImageLabel")
+local closep1 = Instance.new("TextButton")
+local TextButton_Roundify_12px_6 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local commands = Instance.new("TextButton")
+local TextButton_Roundify_12px_7 = Instance.new("ImageLabel")
+local naked = Instance.new("TextButton")
+local TextButton_Roundify_12px_8 = Instance.new("ImageLabel")
+local infjump = Instance.new("TextButton")
+local TextButton_Roundify_12px_9 = Instance.new("ImageLabel")
+local infzoom = Instance.new("TextButton")
+local TextButton_Roundify_12px_10 = Instance.new("ImageLabel")
+local xvib = Instance.new("TextButton") 
+local TextButton_Roundify_12px_11 = Instance.new("ImageLabel")
+local fly = Instance.new("TextButton")
+local TextButton_Roundify_12px_12 = Instance.new("ImageLabel")
+local tpq = Instance.new("TextButton")
+local TextButton_Roundify_12px_13 = Instance.new("ImageLabel")
+local xvid = Instance.new("TextButton")
+local TextButton_Roundify_12px_14 = Instance.new("ImageLabel")
+local xvie = Instance.new("TextButton")
+local TextButton_Roundify_12px_15 = Instance.new("ImageLabel")
+local altclick = Instance.new("TextButton")
+local TextButton_Roundify_12px_16 = Instance.new("ImageLabel")
+local translucent = Instance.new("TextButton")
+local TextButton_Roundify_12px_17 = Instance.new("ImageLabel")
+local xvic = Instance.new("TextButton")
+local TextButton_Roundify_12px_18 = Instance.new("ImageLabel")
+local Page4_2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_19 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local _2Page = Instance.new("ImageLabel")
+local owlhub = Instance.new("TextButton")
+local TextButton_Roundify_12px_20 = Instance.new("ImageLabel")
+local closep2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_21 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local darkhub = Instance.new("TextButton")
+local TextButton_Roundify_12px_22 = Instance.new("ImageLabel")
+local wallwalk = Instance.new("TextButton")
+local TextButton_Roundify_12px_23 = Instance.new("ImageLabel")
+local animchanger = Instance.new("TextButton")
+local TextButton_Roundify_12px_24 = Instance.new("ImageLabel")
+local potatohub = Instance.new("TextButton")
+local TextButton_Roundify_12px_25 = Instance.new("ImageLabel")
+local audiostealer = Instance.new("TextButton")
+local TextButton_Roundify_12px_26 = Instance.new("ImageLabel")
+local antiafk = Instance.new("TextButton")
+local TextButton_Roundify_12px_27 = Instance.new("ImageLabel")
+local freecam = Instance.new("TextButton")
+local TextButton_Roundify_12px_28 = Instance.new("ImageLabel")
+local _3Page = Instance.new("ImageLabel")
+local ragdoll = Instance.new("TextButton")
+local TextButton_Roundify_12px_29 = Instance.new("ImageLabel")
+local closep3 = Instance.new("TextButton")
+local TextButton_Roundify_12px_30 = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local jailbreak = Instance.new("TextButton")
+local TextButton_Roundify_12px_31 = Instance.new("ImageLabel")
+local petsimx = Instance.new("TextButton")
+local TextButton_Roundify_12px_32 = Instance.new("ImageLabel")
+local destsim = Instance.new("TextButton")
+local TextButton_Roundify_12px_33 = Instance.new("ImageLabel")
+local adoptme = Instance.new("TextButton")
+local TextButton_Roundify_12px_34 = Instance.new("ImageLabel")
+local zombierush = Instance.new("TextButton")
+local TextButton_Roundify_12px_35 = Instance.new("ImageLabel")
+local bloxfruits = Instance.new("TextButton")
+local TextButton_Roundify_12px_36 = Instance.new("ImageLabel")
+local dahood = Instance.new("TextButton")
+local TextButton_Roundify_12px_37 = Instance.new("ImageLabel")
+local bgs = Instance.new("TextButton")
+local TextButton_Roundify_12px_38 = Instance.new("ImageLabel")
+local assassin = Instance.new("TextButton")
+local TextButton_Roundify_12px_39 = Instance.new("ImageLabel")
+local arsenal = Instance.new("TextButton")
+local TextButton_Roundify_12px_40 = Instance.new("ImageLabel")
+local drivingempire = Instance.new("TextButton")
+local TextButton_Roundify_12px_41 = Instance.new("ImageLabel")
+local _4Page = Instance.new("ImageLabel")
+local booga = Instance.new("TextButton")
+local TextButton_Roundify_12px_42 = Instance.new("ImageLabel")
+local closep4 = Instance.new("TextButton")
+local TextButton_Roundify_12px_43 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local breakpoint = Instance.new("TextButton")
+local TextButton_Roundify_12px_44 = Instance.new("ImageLabel")
+local lazarus = Instance.new("TextButton")
+local TextButton_Roundify_12px_45 = Instance.new("ImageLabel")
+local ultimatedriving = Instance.new("TextButton")
+local TextButton_Roundify_12px_46 = Instance.new("ImageLabel")
+local buildaboat = Instance.new("TextButton")
+local TextButton_Roundify_12px_47 = Instance.new("ImageLabel")
+local bloxburg = Instance.new("TextButton")
+local TextButton_Roundify_12px_48 = Instance.new("ImageLabel")
+local mm2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_49 = Instance.new("ImageLabel")
+local vehsim = Instance.new("TextButton")
+local TextButton_Roundify_12px_50 = Instance.new("ImageLabel")
+local sharkbite = Instance.new("TextButton")
+local TextButton_Roundify_12px_51 = Instance.new("ImageLabel")
+local prisonlife = Instance.new("TextButton")
+local TextButton_Roundify_12px_52 = Instance.new("ImageLabel")
+local kat = Instance.new("TextButton")
+local TextButton_Roundify_12px_53 = Instance.new("ImageLabel")
+local animpunch = Instance.new("TextButton")
+local TextButton_Roundify_12px_54 = Instance.new("ImageLabel")
+local _5Page = Instance.new("ImageLabel")
+local xvif = Instance.new("TextButton")
+local TextButton_Roundify_12px_55 = Instance.new("ImageLabel")
+local closep5 = Instance.new("TextButton")
+local TextButton_Roundify_12px_56 = Instance.new("ImageLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local xvik = Instance.new("TextButton")
+local TextButton_Roundify_12px_57 = Instance.new("ImageLabel")
+local xvij = Instance.new("TextButton")
+local TextButton_Roundify_12px_58 = Instance.new("ImageLabel")
+local xvig = Instance.new("TextButton")
+local TextButton_Roundify_12px_59 = Instance.new("ImageLabel")
+local xvil = Instance.new("TextButton")
+local TextButton_Roundify_12px_60 = Instance.new("ImageLabel")
+local xvim = Instance.new("TextButton")
+local TextButton_Roundify_12px_61 = Instance.new("ImageLabel")
+local xvii = Instance.new("TextButton")
+local TextButton_Roundify_12px_62 = Instance.new("ImageLabel")
+local xvih = Instance.new("TextButton")
+local TextButton_Roundify_12px_63 = Instance.new("ImageLabel")
+local xviq = Instance.new("TextButton")
+local TextButton_Roundify_12px_64 = Instance.new("ImageLabel")
+local xvin = Instance.new("TextButton")
+local TextButton_Roundify_12px_65 = Instance.new("ImageLabel")
+local xvip = Instance.new("TextButton")
+local TextButton_Roundify_12px_66 = Instance.new("ImageLabel")
+local xvio = Instance.new("TextButton")
+local TextButton_Roundify_12px_67 = Instance.new("ImageLabel")
+local MiscPage = Instance.new("ImageLabel")
+local closemisc = Instance.new("TextButton")
+local TextButton_Roundify_12px_68 = Instance.new("ImageLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local vravatar = Instance.new("TextButton")
+local TextButton_Roundify_12px_69 = Instance.new("ImageLabel")
+local notepadexe = Instance.new("TextButton")
+local TextButton_Roundify_12px_70 = Instance.new("ImageLabel")
+local punchgui = Instance.new("TextButton")
+local TextButton_Roundify_12px_71 = Instance.new("ImageLabel")
+local trollgui = Instance.new("TextButton")
+local TextButton_Roundify_12px_72 = Instance.new("ImageLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local OpenButton = Instance.new("TextButton")
+local TextButton_Roundify_12px_73 = Instance.new("ImageLabel")
+local Notepad = Instance.new("ImageLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_Roundify_12px_74 = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
+local TextBox_2 = Instance.new("TextBox")
+local TextBox_3 = Instance.new("TextBox")
+local TextBox_4 = Instance.new("TextBox")
+local TextBox_5 = Instance.new("TextBox")
+local TextBox_6 = Instance.new("TextBox")
+local TextBox_7 = Instance.new("TextBox")
+local TextBox_8 = Instance.new("TextBox")
+local OpenNotes = Instance.new("TextButton")
+local TextButton_Roundify_12px_75 = Instance.new("ImageLabel")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+MainPage.Name = "MainPage"
+MainPage.Parent = Main
+MainPage.Active = true
+MainPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainPage.BackgroundTransparency = 1.000
+MainPage.Position = UDim2.new(0.267721325, 0, 0.205466956, 0)
+MainPage.Size = UDim2.new(0, 74, 0, 365)
+MainPage.Visible = false
+MainPage.Image = "rbxassetid://3570695787"
+MainPage.ImageColor3 = Color3.fromRGB(34, 34, 34)
+MainPage.ScaleType = Enum.ScaleType.Slice
+MainPage.SliceCenter = Rect.new(100, 100, 100, 100)
+MainPage.SliceScale = 0.120
+MainPage.Draggable = true
+
+Page1.Name = "Page1"
+Page1.Parent = MainPage
+Page1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Page1.BackgroundTransparency = 1.000
+Page1.BorderColor3 = Color3.fromRGB(20, 20, 20)
+Page1.BorderSizePixel = 0
+Page1.Position = UDim2.new(0.015625, 0, 0, 0)
+Page1.Size = UDim2.new(0, 72, 0, 36)
+Page1.Visible = false
+Page1.ZIndex = 3
+Page1.Font = Enum.Font.GothamBlack
+Page1.Text = "PAGE 1"
+Page1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1.TextSize = 13.000
+Page1.MouseButton1Down:connect(function()
+	_1Page.Visible = true
+	_2Page.Visible = false
+	_3Page.Visible = false
+	_4Page.Visible = false
+	_5Page.Visible = false
+	MiscPage.Visible = false
+	Page1.Visible = false
+	Page2.Visible = true
+	Page3.Visible = true
+	Page4.Visible = true
+	Page4_2.Visible = true
+	Page5.Visible = true
+end)
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = Page1
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.ZIndex = 2
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+Page2.Name = "Page2"
+Page2.Parent = MainPage
+Page2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Page2.BackgroundTransparency = 1.000
+Page2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+Page2.BorderSizePixel = 0
+Page2.Position = UDim2.new(0.015625, 0, 0.0960861146, 0)
+Page2.Size = UDim2.new(0, 72, 0, 37)
+Page2.ZIndex = 3
+Page2.Font = Enum.Font.GothamBlack
+Page2.Text = "PAGE 2"
+Page2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2.TextSize = 13.000
+Page2.MouseButton1Down:connect(function()
+	_1Page.Visible = false
+	_2Page.Visible = true
+	_3Page.Visible = false
+	_4Page.Visible = false
+	_5Page.Visible = false
+	MiscPage.Visible = false
+	Page1.Visible = true
+	Page2.Visible = false
+	Page3.Visible = true
+	Page4.Visible = true
+	Page4_2.Visible = true
+	Page5.Visible = true
+end)
+
+TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_2.Parent = Page2
+TextButton_Roundify_12px_2.Active = true
+TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_2.Selectable = true
+TextButton_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_2.ZIndex = 2
+TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_2.SliceScale = 0.120
+
+Page3.Name = "Page3"
+Page3.Parent = MainPage
+Page3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Page3.BackgroundTransparency = 1.000
+Page3.BorderColor3 = Color3.fromRGB(20, 20, 20)
+Page3.BorderSizePixel = 0
+Page3.Position = UDim2.new(0, 0, 0.19696714, 0)
+Page3.Size = UDim2.new(0, 73, 0, 37)
+Page3.ZIndex = 3
+Page3.Font = Enum.Font.GothamBlack
+Page3.Text = "PAGE 3"
+Page3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page3.TextSize = 13.000
+Page3.MouseButton1Down:connect(function()
+	_1Page.Visible = false
+	_2Page.Visible = false
+	_3Page.Visible = true
+	_4Page.Visible = false
+	_5Page.Visible = false
+	MiscPage.Visible = false
+	Page1.Visible = true
+	Page2.Visible = true
+	Page3.Visible = false
+	Page4.Visible = true
+	Page4_2.Visible = true
+	Page5.Visible = true
+end)
+
+TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_3.Parent = Page3
+TextButton_Roundify_12px_3.Active = true
+TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_3.Selectable = true
+TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_3.ZIndex = 2
+TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_3.SliceScale = 0.120
+
+Page4.Name = "Page4"
+Page4.Parent = MainPage
+Page4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Page4.BackgroundTransparency = 1.000
+Page4.BorderColor3 = Color3.fromRGB(20, 20, 20)
+Page4.BorderSizePixel = 0
+Page4.Position = UDim2.new(0.0135135138, 0, 0.297053158, 0)
+Page4.Size = UDim2.new(0, 71, 0, 37)
+Page4.ZIndex = 3
+Page4.Font = Enum.Font.GothamBlack
+Page4.Text = "PAGE 4"
+Page4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page4.TextSize = 13.000
+Page4.MouseButton1Down:connect(function()
+	_1Page.Visible = false
+	_2Page.Visible = false
+	_3Page.Visible = false
+	_4Page.Visible = true
+	_5Page.Visible = false
+	MiscPage.Visible = false
+	Page1.Visible = true
+	Page2.Visible = true
+	Page3.Visible = true
+	Page4.Visible = false
+	Page4_2.Visible = true
+	Page5.Visible = true
+end)
+
+TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_4.Parent = Page4
+TextButton_Roundify_12px_4.Active = true
+TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_4.Selectable = true
+TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_4.ZIndex = 2
+TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_4.SliceScale = 0.120
+
+Page5.Name = "Page5"
+Page5.Parent = MainPage
+Page5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Page5.BackgroundTransparency = 1.000
+Page5.BorderColor3 = Color3.fromRGB(20, 20, 20)
+Page5.BorderSizePixel = 0
+Page5.Position = UDim2.new(0.015625, 0, 0.903093338, 0)
+Page5.Size = UDim2.new(0, 72, 0, 35)
+Page5.ZIndex = 3
+Page5.Font = Enum.Font.GothamBlack
+Page5.Text = "MISC"
+Page5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page5.TextSize = 13.000
+Page5.MouseButton1Down:connect(function()
+	_1Page.Visible = false
+	_2Page.Visible = false
+	_3Page.Visible = false
+	_4Page.Visible = false
+	_5Page.Visible = false
+	MiscPage.Visible = true
+	Page1.Visible = true
+	Page2.Visible = true
+	Page3.Visible = true
+	Page4.Visible = true
+	Page4_2.Visible = true
+	Page5.Visible = false
+end)
+
+TextButton_Roundify_12px_5.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_5.Parent = Page5
+TextButton_Roundify_12px_5.Active = true
+TextButton_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_5.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_5.Selectable = true
+TextButton_Roundify_12px_5.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_5.ZIndex = 2
+TextButton_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_5.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_5.SliceScale = 0.120
+
+_1Page.Name = "1Page"
+_1Page.Parent = MainPage
+_1Page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1Page.BackgroundTransparency = 1.000
+_1Page.Position = UDim2.new(0.683876634, 0, 0, 0)
+_1Page.Size = UDim2.new(0, 512, 0, 365)
+_1Page.Image = "rbxassetid://3570695787"
+_1Page.ImageColor3 = Color3.fromRGB(34, 34, 34)
+_1Page.ScaleType = Enum.ScaleType.Slice
+_1Page.SliceCenter = Rect.new(100, 100, 100, 100)
+_1Page.SliceScale = 0.120
+
+closep1.Name = "closep1"
+closep1.Parent = _1Page
+closep1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+closep1.BackgroundTransparency = 1.000
+closep1.BorderColor3 = Color3.fromRGB(20, 20, 20)
+closep1.BorderSizePixel = 0
+closep1.Position = UDim2.new(0.932451844, 0, -0.000893812918, 0)
+closep1.Size = UDim2.new(0, 34, 0, 36)
+closep1.ZIndex = 3
+closep1.Font = Enum.Font.GothamBlack
+closep1.Text = "X"
+closep1.TextColor3 = Color3.fromRGB(255, 255, 255)
+closep1.TextSize = 14.000
+closep1.MouseButton1Down:connect(function()
+	MainPage.Visible = false
+	OpenButton.Visible = true
+end)
+
+TextButton_Roundify_12px_6.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_6.Parent = closep1
+TextButton_Roundify_12px_6.Active = true
+TextButton_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_6.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_6.Selectable = true
+TextButton_Roundify_12px_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_6.ZIndex = 2
+TextButton_Roundify_12px_6.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_6.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_6.SliceScale = 0.120
+
+TextLabel.Parent = _1Page
+TextLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel.Position = UDim2.new(0.277955413, 0, 0.0884330869, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 298)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = _1Page
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_2.Position = UDim2.new(0.139356256, 0, 0.192792922, 0)
+TextLabel_2.Size = UDim2.new(0, 364, 0, 198)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+commands.Name = "commands"
+commands.Parent = _1Page
+commands.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+commands.BackgroundTransparency = 1.000
+commands.BorderColor3 = Color3.fromRGB(20, 20, 20)
+commands.BorderSizePixel = 0
+commands.Position = UDim2.new(0.614064395, 0, 0.694202304, 0)
+commands.Size = UDim2.new(0, 122, 0, 77)
+commands.ZIndex = 3
+commands.Font = Enum.Font.GothamBlack
+commands.Text = "COMMANDS"
+commands.TextColor3 = Color3.fromRGB(255, 255, 255)
+commands.TextSize = 14.000
+commands.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+TextButton_Roundify_12px_7.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_7.Parent = commands
+TextButton_Roundify_12px_7.Active = true
+TextButton_Roundify_12px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_7.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_7.Selectable = true
+TextButton_Roundify_12px_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_7.ZIndex = 2
+TextButton_Roundify_12px_7.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_7.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_7.SliceScale = 0.120
+
+naked.Name = "naked"
+naked.Parent = _1Page
+naked.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+naked.BackgroundTransparency = 1.000
+naked.BorderColor3 = Color3.fromRGB(20, 20, 20)
+naked.BorderSizePixel = 0
+naked.Position = UDim2.new(0.376710296, 0, 0.694202304, 0)
+naked.Size = UDim2.new(0, 122, 0, 77)
+naked.ZIndex = 3
+naked.Font = Enum.Font.GothamBlack
+naked.Text = "UNCLOTH"
+naked.TextColor3 = Color3.fromRGB(255, 255, 255)
+naked.TextSize = 14.000
+naked.MouseButton1Down:connect(function()
+	while wait() do
+		pcall(function()
+			if game.Players.LocalPlayer.Character:FindFirstChild("Shirt") then
+				game.Players.LocalPlayer.Character.Shirt:Destroy()
+			elseif game.Players.LocalPlayer.Character:FindFirstChild("Pants") then
+				game.Players.LocalPlayer.Character.Pants:Destroy()
+			elseif game.Players.LocalPlayer.Character.Head:FindFirstChild("face") then
+				game.Players.LocalPlayer.Character.Head.face:Destroy()
+			end
+		end)
+	end
+end)
+
+TextButton_Roundify_12px_8.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_8.Parent = naked
+TextButton_Roundify_12px_8.Active = true
+TextButton_Roundify_12px_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_8.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_8.Selectable = true
+TextButton_Roundify_12px_8.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_8.ZIndex = 2
+TextButton_Roundify_12px_8.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_8.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_8.SliceScale = 0.120
+
+infjump.Name = "infjump"
+infjump.Parent = _1Page
+infjump.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+infjump.BackgroundTransparency = 1.000
+infjump.BorderColor3 = Color3.fromRGB(20, 20, 20)
+infjump.BorderSizePixel = 0
+infjump.Position = UDim2.new(0.139356211, 0, 0.694202304, 0)
+infjump.Size = UDim2.new(0, 122, 0, 77)
+infjump.ZIndex = 3
+infjump.Font = Enum.Font.GothamBlack
+infjump.Text = "INFINITE JUMP"
+infjump.TextColor3 = Color3.fromRGB(255, 255, 255)
+infjump.TextSize = 14.000
+infjump.MouseButton1Down:connect(function()
+	_G.infinjump = true
+
+	local Player = game:GetService("Players").LocalPlayer
+	local Mouse = Player:GetMouse()
+	Mouse.KeyDown:connect(function(k)
+		if _G.infinjump then
+			if k:byte() == 32 then
+				Humanoid = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+				Humanoid:ChangeState("Jumping")
+				wait(0.1)
+				Humanoid:ChangeState("Seated")
+			end
+		end
+	end)
+
+	local Player = game:GetService("Players").LocalPlayer
+	local Mouse = Player:GetMouse()
+	Mouse.KeyDown:connect(function(k)
+		k = k:lower()
+		if k == "-" then
+			if _G.infinjump == true then
+				_G.infinjump = false
+			else
+				_G.infinjump = true
+			end
+		end
+	end)
+end)
+
+TextButton_Roundify_12px_9.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_9.Parent = infjump
+TextButton_Roundify_12px_9.Active = true
+TextButton_Roundify_12px_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_9.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_9.Selectable = true
+TextButton_Roundify_12px_9.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_9.ZIndex = 2
+TextButton_Roundify_12px_9.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_9.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_9.SliceScale = 0.120
+
+infzoom.Name = "infzoom"
+infzoom.Parent = _1Page
+infzoom.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+infzoom.BackgroundTransparency = 1.000
+infzoom.BorderColor3 = Color3.fromRGB(20, 20, 20)
+infzoom.BorderSizePixel = 0
+infzoom.Position = UDim2.new(0.139356211, 0, 0.483243406, 0)
+infzoom.Size = UDim2.new(0, 122, 0, 77)
+infzoom.ZIndex = 3
+infzoom.Font = Enum.Font.GothamBlack
+infzoom.Text = "XVI"
+infzoom.TextColor3 = Color3.fromRGB(255, 255, 255)
+infzoom.TextSize = 14.000
+infzoom.MouseButton1Down:connect(function()
+	
+end)
+
+TextButton_Roundify_12px_10.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_10.Parent = infzoom
+TextButton_Roundify_12px_10.Active = true
+TextButton_Roundify_12px_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_10.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_10.Selectable = true
+TextButton_Roundify_12px_10.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_10.ZIndex = 2
+TextButton_Roundify_12px_10.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_10.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_10.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_10.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_10.SliceScale = 0.120
+
+xvib.Name = "xvib"
+xvib.Parent = _1Page
+xvib.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvib.BackgroundTransparency = 1.000
+xvib.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvib.BorderSizePixel = 0
+xvib.Position = UDim2.new(0.139356211, 0, 0.272284508, 0)
+xvib.Size = UDim2.new(0, 122, 0, 77)
+xvib.ZIndex = 3
+xvib.Font = Enum.Font.GothamBlack
+xvib.Text = "XVI"
+xvib.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvib.TextSize = 14.000
+xvib.MouseButton1Down:connect(function()
+	
+end)
+
+TextButton_Roundify_12px_11.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_11.Parent = xvib
+TextButton_Roundify_12px_11.Active = true
+TextButton_Roundify_12px_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_11.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_11.Selectable = true
+TextButton_Roundify_12px_11.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_11.ZIndex = 2
+TextButton_Roundify_12px_11.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_11.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_11.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_11.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_11.SliceScale = 0.120
+
+fly.Name = "fly"
+fly.Parent = _1Page
+fly.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+fly.BackgroundTransparency = 1.000
+fly.BorderColor3 = Color3.fromRGB(20, 20, 20)
+fly.BorderSizePixel = 0
+fly.Position = UDim2.new(0.139356211, 0, 0.0859831348, 0)
+fly.Size = UDim2.new(0, 122, 0, 77)
+fly.ZIndex = 3
+fly.Font = Enum.Font.GothamBlack
+fly.Text = "FLY [X]"
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextSize = 14.000
+fly.MouseButton1Down:connect(function()
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+
+	localplayer = plr
+
+	if workspace:FindFirstChild("Core") then
+		workspace.Core:Destroy()
+	end
+
+	local Core = Instance.new("Part")
+	Core.Name = "Core"
+	Core.Size = Vector3.new(0.05, 0.05, 0.05)
+
+	spawn(function()
+		Core.Parent = workspace
+		local Weld = Instance.new("Weld", Core)
+		Weld.Part0 = Core
+		Weld.Part1 = localplayer.Character.LowerTorso
+		Weld.C0 = CFrame.new(0, 0, 0)
+	end)
+
+	workspace:WaitForChild("Core")
+
+	local torso = workspace.Core
+	flying = true
+	local speed=10
+	local keys={a=false,d=false,w=false,s=false}
+	local e1
+	local e2
+	local function start()
+		local pos = Instance.new("BodyPosition",torso)
+		local gyro = Instance.new("BodyGyro",torso)
+		pos.Name="EPIXPOS"
+		pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+		pos.position = torso.Position
+		gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+		gyro.cframe = torso.CFrame
+		repeat
+			wait()
+			localplayer.Character.Humanoid.PlatformStand=true
+			local new=gyro.cframe - gyro.cframe.p + pos.position
+			if not keys.w and not keys.s and not keys.a and not keys.d then
+				speed=5
+			end
+			if keys.w then
+				new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+				speed=speed+0
+			end
+			if keys.s then
+				new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+				speed=speed+0
+			end
+			if keys.d then
+				new = new * CFrame.new(speed,0,0)
+				speed=speed+0
+			end
+			if keys.a then
+				new = new * CFrame.new(-speed,0,0)
+				speed=speed+0
+			end
+			if speed>10 then
+				speed=5
+			end
+			pos.position=new.p
+			if keys.w then
+				gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*0),0,0)
+			elseif keys.s then
+				gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*0),0,0)
+			else
+				gyro.cframe = workspace.CurrentCamera.CoordinateFrame
+			end
+		until flying == false
+		if gyro then gyro:Destroy() end
+		if pos then pos:Destroy() end
+		flying=false
+		localplayer.Character.Humanoid.PlatformStand=false
+		speed=10
+	end
+	e1=mouse.KeyDown:connect(function(key)
+		if not torso or not torso.Parent then flying=false e1:disconnect() e2:disconnect() return end
+		if key=="w" then
+			keys.w=true
+		elseif key=="s" then
+			keys.s=true
+		elseif key=="a" then
+			keys.a=true
+		elseif key=="d" then
+			keys.d=true
+		elseif key=="x" then
+			if flying==true then
+				flying=false
+			else
+				flying=true
+				start()
+			end
+		end
+	end)
+	e2=mouse.KeyUp:connect(function(key)
+		if key=="w" then
+			keys.w=false
+		elseif key=="s" then
+			keys.s=false
+		elseif key=="a" then
+			keys.a=false
+		elseif key=="d" then
+			keys.d=false
+		end
+	end)
+	start()	
+end)
+
+TextButton_Roundify_12px_12.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_12.Parent = fly
+TextButton_Roundify_12px_12.Active = true
+TextButton_Roundify_12px_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_12.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_12.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_12.Selectable = true
+TextButton_Roundify_12px_12.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_12.ZIndex = 2
+TextButton_Roundify_12px_12.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_12.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_12.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_12.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_12.SliceScale = 0.120
+
+tpq.Name = "tpq"
+tpq.Parent = _1Page
+tpq.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+tpq.BackgroundTransparency = 1.000
+tpq.BorderColor3 = Color3.fromRGB(20, 20, 20)
+tpq.BorderSizePixel = 0
+tpq.Position = UDim2.new(0.380601346, 0, 0.0859831348, 0)
+tpq.Size = UDim2.new(0, 122, 0, 77)
+tpq.ZIndex = 3
+tpq.Font = Enum.Font.GothamBlack
+tpq.Text = "TP [Q]"
+tpq.TextColor3 = Color3.fromRGB(255, 255, 255)
+tpq.TextSize = 14.000
+tpq.MouseButton1Down:connect(function()
+	local plr = game.Players.LocalPlayer
+
+	hum = plr.Character.HumanoidRootPart
+
+	mouse = plr:GetMouse()
+
+
+
+	mouse.KeyDown:connect(function(key)
+
+		if key == "q" then
+
+			if mouse.Target then
+
+				hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)
+
+			end
+
+		end
+	end)		
+end)
+
+TextButton_Roundify_12px_13.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_13.Parent = tpq
+TextButton_Roundify_12px_13.Active = true
+TextButton_Roundify_12px_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_13.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_13.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_13.Selectable = true
+TextButton_Roundify_12px_13.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_13.ZIndex = 2
+TextButton_Roundify_12px_13.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_13.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_13.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_13.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_13.SliceScale = 0.120
+
+xvid.Name = "xvid"
+xvid.Parent = _1Page
+xvid.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvid.BackgroundTransparency = 1.000
+xvid.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvid.BorderSizePixel = 0
+xvid.Position = UDim2.new(0.614064395, 0, 0.0859831348, 0)
+xvid.Size = UDim2.new(0, 122, 0, 77)
+xvid.ZIndex = 3
+xvid.Font = Enum.Font.GothamBlack
+xvid.Text = "XVI"
+xvid.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvid.TextSize = 14.000
+xvid.MouseButton1Down:connect(function()
+	
+end)
+
+TextButton_Roundify_12px_14.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_14.Parent = xvid
+TextButton_Roundify_12px_14.Active = true
+TextButton_Roundify_12px_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_14.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_14.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_14.Selectable = true
+TextButton_Roundify_12px_14.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_14.ZIndex = 2
+TextButton_Roundify_12px_14.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_14.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_14.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_14.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_14.SliceScale = 0.120
+
+xvie.Name = "xvie"
+xvie.Parent = _1Page
+xvie.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvie.BackgroundTransparency = 1.000
+xvie.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvie.BorderSizePixel = 0
+xvie.Position = UDim2.new(0.614064395, 0, 0.272284508, 0)
+xvie.Size = UDim2.new(0, 122, 0, 77)
+xvie.ZIndex = 3
+xvie.Font = Enum.Font.GothamBlack
+xvie.Text = "XVI"
+xvie.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvie.TextSize = 14.000
+xvie.MouseButton1Down:connect(function()
+	
+end)
+
+TextButton_Roundify_12px_15.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_15.Parent = xvie
+TextButton_Roundify_12px_15.Active = true
+TextButton_Roundify_12px_15.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_15.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_15.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_15.Selectable = true
+TextButton_Roundify_12px_15.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_15.ZIndex = 2
+TextButton_Roundify_12px_15.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_15.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_15.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_15.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_15.SliceScale = 0.120
+
+altclick.Name = "altclick"
+altclick.Parent = _1Page
+altclick.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+altclick.BackgroundTransparency = 1.000
+altclick.BorderColor3 = Color3.fromRGB(20, 20, 20)
+altclick.BorderSizePixel = 0
+altclick.Position = UDim2.new(0.614064395, 0, 0.483243406, 0)
+altclick.Size = UDim2.new(0, 122, 0, 77)
+altclick.ZIndex = 3
+altclick.Font = Enum.Font.GothamBlack
+altclick.Text = "ALT+CLICK"
+altclick.TextColor3 = Color3.fromRGB(255, 255, 255)
+altclick.TextSize = 14.000
+altclick.MouseButton1Down:connect(function()
+	local Plr = game:GetService("Players").LocalPlayer
+	local Mouse = Plr:GetMouse()
+
+	Mouse.Button1Down:connect(function()
+		if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftAlt) then return end
+		if not Mouse.Target then return end
+		Mouse.Target:Destroy()
+	end)
+end)
+
+TextButton_Roundify_12px_16.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_16.Parent = altclick
+TextButton_Roundify_12px_16.Active = true
+TextButton_Roundify_12px_16.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_16.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_16.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_16.Selectable = true
+TextButton_Roundify_12px_16.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_16.ZIndex = 2
+TextButton_Roundify_12px_16.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_16.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_16.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_16.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_16.SliceScale = 0.120
+
+translucent.Name = "translucent"
+translucent.Parent = _1Page
+translucent.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+translucent.BackgroundTransparency = 1.000
+translucent.BorderColor3 = Color3.fromRGB(20, 20, 20)
+translucent.BorderSizePixel = 0
+translucent.Position = UDim2.new(0.376710296, 0, 0.483243406, 0)
+translucent.Size = UDim2.new(0, 122, 0, 77)
+translucent.ZIndex = 3
+translucent.Font = Enum.Font.GothamBlack
+translucent.Text = "TRANSLUCENT"
+translucent.TextColor3 = Color3.fromRGB(255, 255, 255)
+translucent.TextSize = 14.000
+translucent.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.DevCameraOcclusionMode = 'Invisicam'
+end)
+
+TextButton_Roundify_12px_17.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_17.Parent = translucent
+TextButton_Roundify_12px_17.Active = true
+TextButton_Roundify_12px_17.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_17.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_17.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_17.Selectable = true
+TextButton_Roundify_12px_17.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_17.ZIndex = 2
+TextButton_Roundify_12px_17.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_17.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_17.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_17.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_17.SliceScale = 0.120
+
+xvic.Name = "xvic"
+xvic.Parent = _1Page
+xvic.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvic.BackgroundTransparency = 1.000
+xvic.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvic.BorderSizePixel = 0
+xvic.Position = UDim2.new(0.376710296, 0, 0.272284508, 0)
+xvic.Size = UDim2.new(0, 122, 0, 77)
+xvic.ZIndex = 3
+xvic.Font = Enum.Font.GothamBlack
+xvic.Text = "XVI"
+xvic.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvic.TextSize = 14.000
+xvic.MouseButton1Down:connect(function()
+	
+end)
+
+TextButton_Roundify_12px_18.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_18.Parent = xvic
+TextButton_Roundify_12px_18.Active = true
+TextButton_Roundify_12px_18.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_18.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_18.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_18.Selectable = true
+TextButton_Roundify_12px_18.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_18.ZIndex = 2
+TextButton_Roundify_12px_18.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_18.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_18.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_18.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_18.SliceScale = 0.120
+
+Page4_2.Name = "Page4"
+Page4_2.Parent = MainPage
+Page4_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Page4_2.BackgroundTransparency = 1.000
+Page4_2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+Page4_2.BorderSizePixel = 0
+Page4_2.Position = UDim2.new(0, 0, 0.396563619, 0)
+Page4_2.Size = UDim2.new(0, 72, 0, 37)
+Page4_2.ZIndex = 3
+Page4_2.Font = Enum.Font.GothamBlack
+Page4_2.Text = "PAGE 5"
+Page4_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page4_2.TextSize = 13.000
+Page4_2.MouseButton1Down:connect(function()
+	_1Page.Visible = false
+	_2Page.Visible = false
+	_3Page.Visible = false
+	_4Page.Visible = false
+	_5Page.Visible = true
+	MiscPage.Visible = false
+	Page1.Visible = true
+	Page2.Visible = true
+	Page3.Visible = true
+	Page4.Visible = true
+	Page4_2.Visible = false
+	Page5.Visible = true
+end)
+
+TextButton_Roundify_12px_19.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_19.Parent = Page4_2
+TextButton_Roundify_12px_19.Active = true
+TextButton_Roundify_12px_19.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_19.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_19.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_19.Selectable = true
+TextButton_Roundify_12px_19.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_19.ZIndex = 2
+TextButton_Roundify_12px_19.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_19.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_19.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_19.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_19.SliceScale = 0.120
+
+TextLabel_3.Parent = MainPage
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_3.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_3.Position = UDim2.new(0.015625, 0, 0.0977363065, 0)
+TextLabel_3.Size = UDim2.new(0, 59, 0, 126)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+_2Page.Name = "2Page"
+_2Page.Parent = MainPage
+_2Page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2Page.BackgroundTransparency = 1.000
+_2Page.Position = UDim2.new(0.683876634, 0, 0, 0)
+_2Page.Size = UDim2.new(0, 512, 0, 365)
+_2Page.Visible = false
+_2Page.Image = "rbxassetid://3570695787"
+_2Page.ImageColor3 = Color3.fromRGB(34, 34, 34)
+_2Page.ScaleType = Enum.ScaleType.Slice
+_2Page.SliceCenter = Rect.new(100, 100, 100, 100)
+_2Page.SliceScale = 0.120
+
+owlhub.Name = "owlhub"
+owlhub.Parent = _2Page
+owlhub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+owlhub.BackgroundTransparency = 1.000
+owlhub.BorderColor3 = Color3.fromRGB(20, 20, 20)
+owlhub.BorderSizePixel = 0
+owlhub.Position = UDim2.new(0.150169462, 0, 0.0852279663, 0)
+owlhub.Size = UDim2.new(0, 159, 0, 63)
+owlhub.ZIndex = 3
+owlhub.Font = Enum.Font.GothamBlack
+owlhub.Text = "OWLHUB"
+owlhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+owlhub.TextSize = 14.000
+owlhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+
+
+TextButton_Roundify_12px_20.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_20.Parent = owlhub
+TextButton_Roundify_12px_20.Active = true
+TextButton_Roundify_12px_20.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_20.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_20.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_20.Selectable = true
+TextButton_Roundify_12px_20.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_20.ZIndex = 2
+TextButton_Roundify_12px_20.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_20.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_20.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_20.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_20.SliceScale = 0.120
+
+closep2.Name = "closep2"
+closep2.Parent = _2Page
+closep2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+closep2.BackgroundTransparency = 1.000
+closep2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+closep2.BorderSizePixel = 0
+closep2.Position = UDim2.new(0.932451844, 0, -0.000893812918, 0)
+closep2.Size = UDim2.new(0, 34, 0, 36)
+closep2.ZIndex = 3
+closep2.Font = Enum.Font.GothamBlack
+closep2.Text = "X"
+closep2.TextColor3 = Color3.fromRGB(255, 255, 255)
+closep2.TextSize = 14.000
+closep2.MouseButton1Down:connect(function()
+	MainPage.Visible = false
+	OpenButton.Visible = true
+end)
+
+
+TextButton_Roundify_12px_21.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_21.Parent = closep2
+TextButton_Roundify_12px_21.Active = true
+TextButton_Roundify_12px_21.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_21.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_21.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_21.Selectable = true
+TextButton_Roundify_12px_21.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_21.ZIndex = 2
+TextButton_Roundify_12px_21.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_21.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_21.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_21.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_21.SliceScale = 0.120
+
+TextLabel_4.Parent = _2Page
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_4.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_4.Position = UDim2.new(0.277955413, 0, 0.0884330869, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 290)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = _2Page
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_5.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_5.Position = UDim2.new(0.150169492, 0, 0.211971, 0)
+TextLabel_5.Size = UDim2.new(0, 347, 0, 188)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ""
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+darkhub.Name = "darkhub"
+darkhub.Parent = _2Page
+darkhub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+darkhub.BackgroundTransparency = 1.000
+darkhub.BorderColor3 = Color3.fromRGB(20, 20, 20)
+darkhub.BorderSizePixel = 0
+darkhub.Position = UDim2.new(0.498090744, 0, 0.0852279887, 0)
+darkhub.Size = UDim2.new(0, 169, 0, 63)
+darkhub.ZIndex = 3
+darkhub.Font = Enum.Font.GothamBlack
+darkhub.Text = "DARKHUB"
+darkhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+darkhub.TextSize = 14.000
+darkhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/BaDCCLTq"), true))()
+
+end)
+
+
+TextButton_Roundify_12px_22.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_22.Parent = darkhub
+TextButton_Roundify_12px_22.Active = true
+TextButton_Roundify_12px_22.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_22.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_22.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_22.Selectable = true
+TextButton_Roundify_12px_22.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_22.ZIndex = 2
+TextButton_Roundify_12px_22.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_22.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_22.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_22.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_22.SliceScale = 0.120
+
+wallwalk.Name = "wallwalk"
+wallwalk.Parent = _2Page
+wallwalk.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+wallwalk.BackgroundTransparency = 1.000
+wallwalk.BorderColor3 = Color3.fromRGB(20, 20, 20)
+wallwalk.BorderSizePixel = 0
+wallwalk.Position = UDim2.new(0.150169492, 0, 0.257830739, 0)
+wallwalk.Size = UDim2.new(0, 159, 0, 74)
+wallwalk.ZIndex = 3
+wallwalk.Font = Enum.Font.GothamBlack
+wallwalk.Text = "WALK ON WALLS"
+wallwalk.TextColor3 = Color3.fromRGB(255, 255, 255)
+wallwalk.TextSize = 14.000
+wallwalk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/RY9cBbdG",true))()
+
+end)
+
+
+TextButton_Roundify_12px_23.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_23.Parent = wallwalk
+TextButton_Roundify_12px_23.Active = true
+TextButton_Roundify_12px_23.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_23.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_23.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_23.Selectable = true
+TextButton_Roundify_12px_23.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_23.ZIndex = 2
+TextButton_Roundify_12px_23.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_23.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_23.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_23.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_23.SliceScale = 0.120
+
+animchanger.Name = "animchanger"
+animchanger.Parent = _2Page
+animchanger.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+animchanger.BackgroundTransparency = 1.000
+animchanger.BorderColor3 = Color3.fromRGB(20, 20, 20)
+animchanger.BorderSizePixel = 0
+animchanger.Position = UDim2.new(0.150169492, 0, 0.460570455, 0)
+animchanger.Size = UDim2.new(0, 159, 0, 82)
+animchanger.ZIndex = 3
+animchanger.Font = Enum.Font.GothamBlack
+animchanger.Text = "ANIMATION CHANGER"
+animchanger.TextColor3 = Color3.fromRGB(255, 255, 255)
+animchanger.TextSize = 14.000
+animchanger.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/WVLvUrvA", true))()
+
+end)
+
+
+TextButton_Roundify_12px_24.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_24.Parent = animchanger
+TextButton_Roundify_12px_24.Active = true
+TextButton_Roundify_12px_24.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_24.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_24.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_24.Selectable = true
+TextButton_Roundify_12px_24.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_24.ZIndex = 2
+TextButton_Roundify_12px_24.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_24.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_24.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_24.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_24.SliceScale = 0.120
+
+potatohub.Name = "potatohub"
+potatohub.Parent = _2Page
+potatohub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+potatohub.BackgroundTransparency = 1.000
+potatohub.BorderColor3 = Color3.fromRGB(20, 20, 20)
+potatohub.BorderSizePixel = 0
+potatohub.Position = UDim2.new(0.498090744, 0, 0.257830739, 0)
+potatohub.Size = UDim2.new(0, 169, 0, 74)
+potatohub.ZIndex = 3
+potatohub.Font = Enum.Font.GothamBlack
+potatohub.Text = "POTATO HUB"
+potatohub.TextColor3 = Color3.fromRGB(255, 255, 255)
+potatohub.TextSize = 14.000
+potatohub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tWTJ99na",true))()
+
+end)
+
+TextButton_Roundify_12px_25.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_25.Parent = potatohub
+TextButton_Roundify_12px_25.Active = true
+TextButton_Roundify_12px_25.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_25.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_25.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_25.Selectable = true
+TextButton_Roundify_12px_25.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_25.ZIndex = 2
+TextButton_Roundify_12px_25.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_25.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_25.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_25.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_25.SliceScale = 0.120
+
+audiostealer.Name = "audiostealer"
+audiostealer.Parent = _2Page
+audiostealer.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+audiostealer.BackgroundTransparency = 1.000
+audiostealer.BorderColor3 = Color3.fromRGB(20, 20, 20)
+audiostealer.BorderSizePixel = 0
+audiostealer.Position = UDim2.new(0.498090744, 0, 0.46231705, 0)
+audiostealer.Size = UDim2.new(0, 169, 0, 81)
+audiostealer.ZIndex = 3
+audiostealer.Font = Enum.Font.GothamBlack
+audiostealer.Text = "AUDIO STEALER"
+audiostealer.TextColor3 = Color3.fromRGB(255, 255, 255)
+audiostealer.TextSize = 14.000
+audiostealer.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/auvrex/Guis/main/Audio%20stealer"), true))()
+end)
+
+TextButton_Roundify_12px_26.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_26.Parent = audiostealer
+TextButton_Roundify_12px_26.Active = true
+TextButton_Roundify_12px_26.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_26.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_26.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_26.Selectable = true
+TextButton_Roundify_12px_26.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_26.ZIndex = 2
+TextButton_Roundify_12px_26.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_26.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_26.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_26.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_26.SliceScale = 0.120
+
+antiafk.Name = "antiafk"
+antiafk.Parent = _2Page
+antiafk.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+antiafk.BackgroundTransparency = 1.000
+antiafk.BorderColor3 = Color3.fromRGB(20, 20, 20)
+antiafk.BorderSizePixel = 0
+antiafk.Position = UDim2.new(0.486371994, 0, 0.684234858, 0)
+antiafk.Size = UDim2.new(0, 175, 0, 73)
+antiafk.ZIndex = 3
+antiafk.Font = Enum.Font.GothamBlack
+antiafk.Text = "ANTI AFK"
+antiafk.TextColor3 = Color3.fromRGB(255, 255, 255)
+antiafk.TextSize = 14.000
+antiafk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/ZAyHAUed"), true))()
+
+end)
+
+TextButton_Roundify_12px_27.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_27.Parent = antiafk
+TextButton_Roundify_12px_27.Active = true
+TextButton_Roundify_12px_27.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_27.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_27.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_27.Selectable = true
+TextButton_Roundify_12px_27.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_27.ZIndex = 2
+TextButton_Roundify_12px_27.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_27.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_27.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_27.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_27.SliceScale = 0.120
+
+freecam.Name = "freecam"
+freecam.Parent = _2Page
+freecam.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+freecam.BackgroundTransparency = 1.000
+freecam.BorderColor3 = Color3.fromRGB(20, 20, 20)
+freecam.BorderSizePixel = 0
+freecam.Position = UDim2.new(0.150169492, 0, 0.684234858, 0)
+freecam.Size = UDim2.new(0, 172, 0, 73)
+freecam.ZIndex = 3
+freecam.Font = Enum.Font.GothamBlack
+freecam.Text = "FREECAM"
+freecam.TextColor3 = Color3.fromRGB(255, 255, 255)
+freecam.TextSize = 14.000
+freecam.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/mfrMFUcJ"),true))()
+end)
+
+TextButton_Roundify_12px_28.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_28.Parent = freecam
+TextButton_Roundify_12px_28.Active = true
+TextButton_Roundify_12px_28.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_28.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_28.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_28.Selectable = true
+TextButton_Roundify_12px_28.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_28.ZIndex = 2
+TextButton_Roundify_12px_28.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_28.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_28.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_28.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_28.SliceScale = 0.120
+
+_3Page.Name = "3Page"
+_3Page.Parent = MainPage
+_3Page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3Page.BackgroundTransparency = 1.000
+_3Page.Position = UDim2.new(0.683876634, 0, 0, 0)
+_3Page.Size = UDim2.new(0, 512, 0, 365)
+_3Page.Visible = false
+_3Page.Image = "rbxassetid://3570695787"
+_3Page.ImageColor3 = Color3.fromRGB(34, 34, 34)
+_3Page.ScaleType = Enum.ScaleType.Slice
+_3Page.SliceCenter = Rect.new(100, 100, 100, 100)
+_3Page.SliceScale = 0.120
+
+ragdoll.Name = "ragdoll"
+ragdoll.Parent = _3Page
+ragdoll.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ragdoll.BackgroundTransparency = 1.000
+ragdoll.BorderColor3 = Color3.fromRGB(20, 20, 20)
+ragdoll.BorderSizePixel = 0
+ragdoll.Position = UDim2.new(0.150169447, 0, 0.0852279663, 0)
+ragdoll.Size = UDim2.new(0, 106, 0, 63)
+ragdoll.ZIndex = 3
+ragdoll.Font = Enum.Font.GothamBlack
+ragdoll.Text = "RAGDOLL"
+ragdoll.TextColor3 = Color3.fromRGB(255, 255, 255)
+ragdoll.TextSize = 14.000
+ragdoll.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/auvrex/Guis/main/Ragdollgui'))();
+
+end)
+
+TextButton_Roundify_12px_29.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_29.Parent = ragdoll
+TextButton_Roundify_12px_29.Active = true
+TextButton_Roundify_12px_29.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_29.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_29.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_29.Selectable = true
+TextButton_Roundify_12px_29.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_29.ZIndex = 2
+TextButton_Roundify_12px_29.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_29.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_29.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_29.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_29.SliceScale = 0.120
+
+closep3.Name = "closep3"
+closep3.Parent = _3Page
+closep3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+closep3.BackgroundTransparency = 1.000
+closep3.BorderColor3 = Color3.fromRGB(20, 20, 20)
+closep3.BorderSizePixel = 0
+closep3.Position = UDim2.new(0.932451844, 0, -0.000893812918, 0)
+closep3.Size = UDim2.new(0, 34, 0, 36)
+closep3.ZIndex = 3
+closep3.Font = Enum.Font.GothamBlack
+closep3.Text = "X"
+closep3.TextColor3 = Color3.fromRGB(255, 255, 255)
+closep3.TextSize = 14.000
+closep3.MouseButton1Down:connect(function()
+	MainPage.Visible = false
+	OpenButton.Visible = true
+end)
+
+TextButton_Roundify_12px_30.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_30.Parent = closep3
+TextButton_Roundify_12px_30.Active = true
+TextButton_Roundify_12px_30.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_30.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_30.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_30.Selectable = true
+TextButton_Roundify_12px_30.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_30.ZIndex = 2
+TextButton_Roundify_12px_30.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_30.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_30.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_30.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_30.SliceScale = 0.120
+
+TextLabel_6.Parent = _3Page
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_6.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_6.Position = UDim2.new(0.277955413, 0, 0.0884330869, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 297)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = ""
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = _3Page
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_7.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_7.Position = UDim2.new(0.150169492, 0, 0.192792922, 0)
+TextLabel_7.Size = UDim2.new(0, 343, 0, 231)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+
+jailbreak.Name = "jailbreak"
+jailbreak.Parent = _3Page
+jailbreak.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+jailbreak.BackgroundTransparency = 1.000
+jailbreak.BorderColor3 = Color3.fromRGB(20, 20, 20)
+jailbreak.BorderSizePixel = 0
+jailbreak.Position = UDim2.new(0.379928768, 0, 0.0852279663, 0)
+jailbreak.Size = UDim2.new(0, 106, 0, 63)
+jailbreak.ZIndex = 3
+jailbreak.Font = Enum.Font.GothamBlack
+jailbreak.Text = "JAILBREAK"
+jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+jailbreak.TextSize = 14.000
+jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/N78jpcsU",true))()
+
+end)
+
+TextButton_Roundify_12px_31.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_31.Parent = jailbreak
+TextButton_Roundify_12px_31.Active = true
+TextButton_Roundify_12px_31.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_31.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_31.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_31.Selectable = true
+TextButton_Roundify_12px_31.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_31.ZIndex = 2
+TextButton_Roundify_12px_31.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_31.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_31.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_31.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_31.SliceScale = 0.120
+
+petsimx.Name = "petsimx"
+petsimx.Parent = _3Page
+petsimx.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+petsimx.BackgroundTransparency = 1.000
+petsimx.BorderColor3 = Color3.fromRGB(20, 20, 20)
+petsimx.BorderSizePixel = 0
+petsimx.Position = UDim2.new(0.614064395, 0, 0.0852279663, 0)
+petsimx.Size = UDim2.new(0, 106, 0, 63)
+petsimx.ZIndex = 3
+petsimx.Font = Enum.Font.GothamBlack
+petsimx.Text = "PET SIMULATOR"
+petsimx.TextColor3 = Color3.fromRGB(255, 255, 255)
+petsimx.TextSize = 13.000
+petsimx.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet"https://www.scriptblox.com/raw/Project-Meow_421")()
+end)
+
+TextButton_Roundify_12px_32.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_32.Parent = petsimx
+TextButton_Roundify_12px_32.Active = true
+TextButton_Roundify_12px_32.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_32.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_32.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_32.Selectable = true
+TextButton_Roundify_12px_32.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_32.ZIndex = 2
+TextButton_Roundify_12px_32.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_32.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_32.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_32.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_32.SliceScale = 0.120
+
+destsim.Name = "destsim"
+destsim.Parent = _3Page
+destsim.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+destsim.BackgroundTransparency = 1.000
+destsim.BorderColor3 = Color3.fromRGB(20, 20, 20)
+destsim.BorderSizePixel = 0
+destsim.Position = UDim2.new(0.150169447, 0, 0.290356159, 0)
+destsim.Size = UDim2.new(0, 106, 0, 63)
+destsim.ZIndex = 3
+destsim.Font = Enum.Font.GothamBlack
+destsim.Text = "DESTRUCTION"
+destsim.TextColor3 = Color3.fromRGB(255, 255, 255)
+destsim.TextSize = 14.000
+destsim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/auvrex/auvrexd/main/DESTRUCTION%20SIM", true))()
+
+end)
+
+TextButton_Roundify_12px_33.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_33.Parent = destsim
+TextButton_Roundify_12px_33.Active = true
+TextButton_Roundify_12px_33.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_33.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_33.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_33.Selectable = true
+TextButton_Roundify_12px_33.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_33.ZIndex = 2
+TextButton_Roundify_12px_33.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_33.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_33.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_33.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_33.SliceScale = 0.120
+
+adoptme.Name = "adoptme"
+adoptme.Parent = _3Page
+adoptme.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+adoptme.BackgroundTransparency = 1.000
+adoptme.BorderColor3 = Color3.fromRGB(20, 20, 20)
+adoptme.BorderSizePixel = 0
+adoptme.Position = UDim2.new(0.150169447, 0, 0.492279202, 0)
+adoptme.Size = UDim2.new(0, 106, 0, 63)
+adoptme.ZIndex = 3
+adoptme.Font = Enum.Font.GothamBlack
+adoptme.Text = "ADOPT ME"
+adoptme.TextColor3 = Color3.fromRGB(255, 255, 255)
+adoptme.TextSize = 14.000
+adoptme.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
+
+end)
+
+TextButton_Roundify_12px_34.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_34.Parent = adoptme
+TextButton_Roundify_12px_34.Active = true
+TextButton_Roundify_12px_34.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_34.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_34.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_34.Selectable = true
+TextButton_Roundify_12px_34.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_34.ZIndex = 2
+TextButton_Roundify_12px_34.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_34.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_34.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_34.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_34.SliceScale = 0.120
+
+zombierush.Name = "zombierush"
+zombierush.Parent = _3Page
+zombierush.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+zombierush.BackgroundTransparency = 1.000
+zombierush.BorderColor3 = Color3.fromRGB(20, 20, 20)
+zombierush.BorderSizePixel = 0
+zombierush.Position = UDim2.new(0.150169492, 0, 0.697407424, 0)
+zombierush.Size = UDim2.new(0, 106, 0, 75)
+zombierush.ZIndex = 3
+zombierush.Font = Enum.Font.GothamBlack
+zombierush.Text = "ZOMBIE RUSH"
+zombierush.TextColor3 = Color3.fromRGB(255, 255, 255)
+zombierush.TextSize = 14.000
+zombierush.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/cHmscXYK", true))()	
+
+end)
+
+TextButton_Roundify_12px_35.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_35.Parent = zombierush
+TextButton_Roundify_12px_35.Active = true
+TextButton_Roundify_12px_35.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_35.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_35.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_35.Selectable = true
+TextButton_Roundify_12px_35.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_35.ZIndex = 2
+TextButton_Roundify_12px_35.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_35.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_35.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_35.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_35.SliceScale = 0.120
+
+bloxfruits.Name = "bloxfruits"
+bloxfruits.Parent = _3Page
+bloxfruits.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+bloxfruits.BackgroundTransparency = 1.000
+bloxfruits.BorderColor3 = Color3.fromRGB(20, 20, 20)
+bloxfruits.BorderSizePixel = 0
+bloxfruits.Position = UDim2.new(0.382116944, 0, 0.290356159, 0)
+bloxfruits.Size = UDim2.new(0, 106, 0, 63)
+bloxfruits.ZIndex = 3
+bloxfruits.Font = Enum.Font.GothamBlack
+bloxfruits.Text = "BLOXFRUITS"
+bloxfruits.TextColor3 = Color3.fromRGB(255, 255, 255)
+bloxfruits.TextSize = 14.000
+bloxfruits.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet("https://pastebin.com/raw/vqnuphsh", true))()
+
+
+end)
+
+TextButton_Roundify_12px_36.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_36.Parent = bloxfruits
+TextButton_Roundify_12px_36.Active = true
+TextButton_Roundify_12px_36.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_36.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_36.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_36.Selectable = true
+TextButton_Roundify_12px_36.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_36.ZIndex = 2
+TextButton_Roundify_12px_36.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_36.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_36.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_36.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_36.SliceScale = 0.120
+
+dahood.Name = "dahood"
+dahood.Parent = _3Page
+dahood.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+dahood.BackgroundTransparency = 1.000
+dahood.BorderColor3 = Color3.fromRGB(20, 20, 20)
+dahood.BorderSizePixel = 0
+dahood.Position = UDim2.new(0.614064395, 0, 0.290356159, 0)
+dahood.Size = UDim2.new(0, 106, 0, 63)
+dahood.ZIndex = 3
+dahood.Font = Enum.Font.GothamBlack
+dahood.Text = "DA HOOD"
+dahood.TextColor3 = Color3.fromRGB(255, 255, 255)
+dahood.TextSize = 14.000
+dahood.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/auvrex/auvrexd/main/script%20v4.3%20(2020%20june).txt"))()
+end)
+
+TextButton_Roundify_12px_37.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_37.Parent = dahood
+TextButton_Roundify_12px_37.Active = true
+TextButton_Roundify_12px_37.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_37.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_37.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_37.Selectable = true
+TextButton_Roundify_12px_37.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_37.ZIndex = 2
+TextButton_Roundify_12px_37.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_37.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_37.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_37.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_37.SliceScale = 0.120
+
+bgs.Name = "bgs"
+bgs.Parent = _3Page
+bgs.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+bgs.BackgroundTransparency = 1.000
+bgs.BorderColor3 = Color3.fromRGB(20, 20, 20)
+bgs.BorderSizePixel = 0
+bgs.Position = UDim2.new(0.382116944, 0, 0.492279232, 0)
+bgs.Size = UDim2.new(0, 106, 0, 63)
+bgs.ZIndex = 3
+bgs.Font = Enum.Font.GothamBlack
+bgs.Text = "BUBBLGUM"
+bgs.TextColor3 = Color3.fromRGB(255, 255, 255)
+bgs.TextSize = 14.000
+bgs.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/auvrex/Guis/main/BGSgui", true))()
+
+end)
+
+TextButton_Roundify_12px_38.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_38.Parent = bgs
+TextButton_Roundify_12px_38.Active = true
+TextButton_Roundify_12px_38.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_38.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_38.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_38.Selectable = true
+TextButton_Roundify_12px_38.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_38.ZIndex = 2
+TextButton_Roundify_12px_38.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_38.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_38.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_38.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_38.SliceScale = 0.120
+
+assassin.Name = "assassin"
+assassin.Parent = _3Page
+assassin.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+assassin.BackgroundTransparency = 1.000
+assassin.BorderColor3 = Color3.fromRGB(20, 20, 20)
+assassin.BorderSizePixel = 0
+assassin.Position = UDim2.new(0.614064395, 0, 0.492279232, 0)
+assassin.Size = UDim2.new(0, 106, 0, 63)
+assassin.ZIndex = 3
+assassin.Font = Enum.Font.GothamBlack
+assassin.Text = "ASSASSIN"
+assassin.TextColor3 = Color3.fromRGB(255, 255, 255)
+assassin.TextSize = 14.000
+assassin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/bockatta/Shitter/main/Loader'))();
+
+end)
+
+TextButton_Roundify_12px_39.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_39.Parent = assassin
+TextButton_Roundify_12px_39.Active = true
+TextButton_Roundify_12px_39.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_39.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_39.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_39.Selectable = true
+TextButton_Roundify_12px_39.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_39.ZIndex = 2
+TextButton_Roundify_12px_39.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_39.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_39.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_39.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_39.SliceScale = 0.120
+
+arsenal.Name = "arsenal"
+arsenal.Parent = _3Page
+arsenal.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+arsenal.BackgroundTransparency = 1.000
+arsenal.BorderColor3 = Color3.fromRGB(20, 20, 20)
+arsenal.BorderSizePixel = 0
+arsenal.Position = UDim2.new(0.614064455, 0, 0.694202304, 0)
+arsenal.Size = UDim2.new(0, 106, 0, 76)
+arsenal.ZIndex = 3
+arsenal.Font = Enum.Font.GothamBlack
+arsenal.Text = "ARSENAL"
+arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+arsenal.TextSize = 14.000
+arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE", true))()
+
+end)
+
+TextButton_Roundify_12px_40.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_40.Parent = arsenal
+TextButton_Roundify_12px_40.Active = true
+TextButton_Roundify_12px_40.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_40.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_40.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_40.Selectable = true
+TextButton_Roundify_12px_40.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_40.ZIndex = 2
+TextButton_Roundify_12px_40.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_40.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_40.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_40.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_40.SliceScale = 0.120
+
+drivingempire.Name = "drivingempire"
+drivingempire.Parent = _3Page
+drivingempire.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+drivingempire.BackgroundTransparency = 1.000
+drivingempire.BorderColor3 = Color3.fromRGB(20, 20, 20)
+drivingempire.BorderSizePixel = 0
+drivingempire.Position = UDim2.new(0.382116914, 0, 0.697407424, 0)
+drivingempire.Size = UDim2.new(0, 106, 0, 75)
+drivingempire.ZIndex = 3
+drivingempire.Font = Enum.Font.GothamBlack
+drivingempire.Text = "DRIVING EMP"
+drivingempire.TextColor3 = Color3.fromRGB(255, 255, 255)
+drivingempire.TextSize = 14.000
+drivingempire.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Luminential/releases/main/de_autofarm.luau'),true))()
+
+end)
+
+TextButton_Roundify_12px_41.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_41.Parent = drivingempire
+TextButton_Roundify_12px_41.Active = true
+TextButton_Roundify_12px_41.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_41.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_41.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_41.Selectable = true
+TextButton_Roundify_12px_41.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_41.ZIndex = 2
+TextButton_Roundify_12px_41.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_41.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_41.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_41.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_41.SliceScale = 0.120
+
+_4Page.Name = "4Page"
+_4Page.Parent = MainPage
+_4Page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4Page.BackgroundTransparency = 1.000
+_4Page.Position = UDim2.new(0.683876634, 0, 0, 0)
+_4Page.Size = UDim2.new(0, 511, 0, 365)
+_4Page.Visible = false
+_4Page.Image = "rbxassetid://3570695787"
+_4Page.ImageColor3 = Color3.fromRGB(34, 34, 34)
+_4Page.ScaleType = Enum.ScaleType.Slice
+_4Page.SliceCenter = Rect.new(100, 100, 100, 100)
+_4Page.SliceScale = 0.120
+
+booga.Name = "booga"
+booga.Parent = _4Page
+booga.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+booga.BackgroundTransparency = 1.000
+booga.BorderColor3 = Color3.fromRGB(20, 20, 20)
+booga.BorderSizePixel = 0
+booga.Position = UDim2.new(0.150169447, 0, 0.0852279663, 0)
+booga.Size = UDim2.new(0, 106, 0, 63)
+booga.ZIndex = 3
+booga.Font = Enum.Font.GothamBlack
+booga.Text = "BOOGA BOOGA"
+booga.TextColor3 = Color3.fromRGB(255, 255, 255)
+booga.TextSize = 14.000
+booga.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/yigKxDrK", true))()
+
+end)
+
+TextButton_Roundify_12px_42.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_42.Parent = booga
+TextButton_Roundify_12px_42.Active = true
+TextButton_Roundify_12px_42.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_42.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_42.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_42.Selectable = true
+TextButton_Roundify_12px_42.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_42.ZIndex = 2
+TextButton_Roundify_12px_42.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_42.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_42.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_42.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_42.SliceScale = 0.120
+
+closep4.Name = "closep4"
+closep4.Parent = _4Page
+closep4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+closep4.BackgroundTransparency = 1.000
+closep4.BorderColor3 = Color3.fromRGB(20, 20, 20)
+closep4.BorderSizePixel = 0
+closep4.Position = UDim2.new(0.932467103, 0, -0.000893812918, 0)
+closep4.Size = UDim2.new(0, 34, 0, 36)
+closep4.ZIndex = 3
+closep4.Font = Enum.Font.GothamBlack
+closep4.Text = "X"
+closep4.TextColor3 = Color3.fromRGB(255, 255, 255)
+closep4.TextSize = 14.000
+closep4.MouseButton1Down:connect(function()
+	MainPage.Visible = false
+	OpenButton.Visible = true
+end)
+
+TextButton_Roundify_12px_43.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_43.Parent = closep4
+TextButton_Roundify_12px_43.Active = true
+TextButton_Roundify_12px_43.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_43.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_43.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_43.Selectable = true
+TextButton_Roundify_12px_43.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_43.ZIndex = 2
+TextButton_Roundify_12px_43.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_43.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_43.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_43.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_43.SliceScale = 0.120
+
+TextLabel_8.Parent = _4Page
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_8.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_8.Position = UDim2.new(0.277955413, 0, 0.0884330869, 0)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 297)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = ""
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = _4Page
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_9.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_9.Position = UDim2.new(0.150169417, 0, 0.192792922, 0)
+TextLabel_9.Size = UDim2.new(0, 343, 0, 203)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = ""
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
+
+breakpoint.Name = "breakpoint"
+breakpoint.Parent = _4Page
+breakpoint.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+breakpoint.BackgroundTransparency = 1.000
+breakpoint.BorderColor3 = Color3.fromRGB(20, 20, 20)
+breakpoint.BorderSizePixel = 0
+breakpoint.Position = UDim2.new(0.379928768, 0, 0.0852279663, 0)
+breakpoint.Size = UDim2.new(0, 106, 0, 63)
+breakpoint.ZIndex = 3
+breakpoint.Font = Enum.Font.GothamBlack
+breakpoint.Text = "BREAKPOINT"
+breakpoint.TextColor3 = Color3.fromRGB(255, 255, 255)
+breakpoint.TextSize = 14.000
+breakpoint.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/MLPypHYv', true))()
+
+end)
+
+TextButton_Roundify_12px_44.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_44.Parent = breakpoint
+TextButton_Roundify_12px_44.Active = true
+TextButton_Roundify_12px_44.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_44.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_44.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_44.Selectable = true
+TextButton_Roundify_12px_44.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_44.ZIndex = 2
+TextButton_Roundify_12px_44.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_44.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_44.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_44.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_44.SliceScale = 0.120
+
+lazarus.Name = "lazarus"
+lazarus.Parent = _4Page
+lazarus.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+lazarus.BackgroundTransparency = 1.000
+lazarus.BorderColor3 = Color3.fromRGB(20, 20, 20)
+lazarus.BorderSizePixel = 0
+lazarus.Position = UDim2.new(0.614064395, 0, 0.0852279663, 0)
+lazarus.Size = UDim2.new(0, 106, 0, 63)
+lazarus.ZIndex = 3
+lazarus.Font = Enum.Font.GothamBlack
+lazarus.Text = "LAZARUS"
+lazarus.TextColor3 = Color3.fromRGB(255, 255, 255)
+lazarus.TextSize = 14.000
+lazarus.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/x46An9Pf', true))()
+
+end)
+
+TextButton_Roundify_12px_45.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_45.Parent = lazarus
+TextButton_Roundify_12px_45.Active = true
+TextButton_Roundify_12px_45.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_45.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_45.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_45.Selectable = true
+TextButton_Roundify_12px_45.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_45.ZIndex = 2
+TextButton_Roundify_12px_45.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_45.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_45.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_45.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_45.SliceScale = 0.120
+
+ultimatedriving.Name = "ultimatedriving"
+ultimatedriving.Parent = _4Page
+ultimatedriving.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ultimatedriving.BackgroundTransparency = 1.000
+ultimatedriving.BorderColor3 = Color3.fromRGB(20, 20, 20)
+ultimatedriving.BorderSizePixel = 0
+ultimatedriving.Position = UDim2.new(0.150169447, 0, 0.492279202, 0)
+ultimatedriving.Size = UDim2.new(0, 106, 0, 63)
+ultimatedriving.ZIndex = 3
+ultimatedriving.Font = Enum.Font.GothamBlack
+ultimatedriving.Text = "ULT DRIVING"
+ultimatedriving.TextColor3 = Color3.fromRGB(255, 255, 255)
+ultimatedriving.TextSize = 14.000
+ultimatedriving.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/auvrex/Guis/main/ultimate%20driving', true))()
+end)
+
+TextButton_Roundify_12px_46.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_46.Parent = ultimatedriving
+TextButton_Roundify_12px_46.Active = true
+TextButton_Roundify_12px_46.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_46.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_46.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_46.Selectable = true
+TextButton_Roundify_12px_46.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_46.ZIndex = 2
+TextButton_Roundify_12px_46.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_46.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_46.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_46.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_46.SliceScale = 0.120
+
+buildaboat.Name = "buildaboat"
+buildaboat.Parent = _4Page
+buildaboat.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+buildaboat.BackgroundTransparency = 1.000
+buildaboat.BorderColor3 = Color3.fromRGB(20, 20, 20)
+buildaboat.BorderSizePixel = 0
+buildaboat.Position = UDim2.new(0.150169417, 0, 0.697407424, 0)
+buildaboat.Size = UDim2.new(0, 106, 0, 75)
+buildaboat.ZIndex = 3
+buildaboat.Font = Enum.Font.GothamBlack
+buildaboat.Text = "BUILD A BOAT"
+buildaboat.TextColor3 = Color3.fromRGB(255, 255, 255)
+buildaboat.TextSize = 14.000
+buildaboat.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/BaDCCLTq"), true))()
+
+end)
+
+TextButton_Roundify_12px_47.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_47.Parent = buildaboat
+TextButton_Roundify_12px_47.Active = true
+TextButton_Roundify_12px_47.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_47.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_47.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_47.Selectable = true
+TextButton_Roundify_12px_47.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_47.ZIndex = 2
+TextButton_Roundify_12px_47.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_47.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_47.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_47.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_47.SliceScale = 0.120
+
+bloxburg.Name = "bloxburg"
+bloxburg.Parent = _4Page
+bloxburg.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+bloxburg.BackgroundTransparency = 1.000
+bloxburg.BorderColor3 = Color3.fromRGB(20, 20, 20)
+bloxburg.BorderSizePixel = 0
+bloxburg.Position = UDim2.new(0.382116944, 0, 0.290356159, 0)
+bloxburg.Size = UDim2.new(0, 106, 0, 63)
+bloxburg.ZIndex = 3
+bloxburg.Font = Enum.Font.GothamBlack
+bloxburg.Text = "BLOXBURG"
+bloxburg.TextColor3 = Color3.fromRGB(255, 255, 255)
+bloxburg.TextSize = 14.000
+bloxburg.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/auvrex/Guis/main/bloxburg"), true))()
+end)
+
+TextButton_Roundify_12px_48.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_48.Parent = bloxburg
+TextButton_Roundify_12px_48.Active = true
+TextButton_Roundify_12px_48.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_48.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_48.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_48.Selectable = true
+TextButton_Roundify_12px_48.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_48.ZIndex = 2
+TextButton_Roundify_12px_48.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_48.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_48.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_48.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_48.SliceScale = 0.120
+
+mm2.Name = "mm2"
+mm2.Parent = _4Page
+mm2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+mm2.BackgroundTransparency = 1.000
+mm2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+mm2.BorderSizePixel = 0
+mm2.Position = UDim2.new(0.614064395, 0, 0.290356159, 0)
+mm2.Size = UDim2.new(0, 106, 0, 63)
+mm2.ZIndex = 3
+mm2.Font = Enum.Font.GothamBlack
+mm2.Text = "MM2"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextSize = 14.000
+mm2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
+end)
+
+TextButton_Roundify_12px_49.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_49.Parent = mm2
+TextButton_Roundify_12px_49.Active = true
+TextButton_Roundify_12px_49.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_49.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_49.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_49.Selectable = true
+TextButton_Roundify_12px_49.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_49.ZIndex = 2
+TextButton_Roundify_12px_49.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_49.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_49.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_49.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_49.SliceScale = 0.120
+
+vehsim.Name = "vehsim"
+vehsim.Parent = _4Page
+vehsim.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+vehsim.BackgroundTransparency = 1.000
+vehsim.BorderColor3 = Color3.fromRGB(20, 20, 20)
+vehsim.BorderSizePixel = 0
+vehsim.Position = UDim2.new(0.382116944, 0, 0.492279232, 0)
+vehsim.Size = UDim2.new(0, 106, 0, 63)
+vehsim.ZIndex = 3
+vehsim.Font = Enum.Font.GothamBlack
+vehsim.Text = "VEHICLE SIM"
+vehsim.TextColor3 = Color3.fromRGB(255, 255, 255)
+vehsim.TextSize = 14.000
+vehsim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet'http://ataias.xyz/getScript?ID=2b5d10914455ca6e4013bc2aa49ed62b')()
+
+end)
+
+TextButton_Roundify_12px_50.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_50.Parent = vehsim
+TextButton_Roundify_12px_50.Active = true
+TextButton_Roundify_12px_50.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_50.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_50.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_50.Selectable = true
+TextButton_Roundify_12px_50.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_50.ZIndex = 2
+TextButton_Roundify_12px_50.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_50.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_50.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_50.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_50.SliceScale = 0.120
+
+sharkbite.Name = "sharkbite"
+sharkbite.Parent = _4Page
+sharkbite.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+sharkbite.BackgroundTransparency = 1.000
+sharkbite.BorderColor3 = Color3.fromRGB(20, 20, 20)
+sharkbite.BorderSizePixel = 0
+sharkbite.Position = UDim2.new(0.614064395, 0, 0.492279232, 0)
+sharkbite.Size = UDim2.new(0, 106, 0, 63)
+sharkbite.ZIndex = 3
+sharkbite.Font = Enum.Font.GothamBlack
+sharkbite.Text = "SHARKBITE"
+sharkbite.TextColor3 = Color3.fromRGB(255, 255, 255)
+sharkbite.TextSize = 14.000
+sharkbite.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
+end)
+
+TextButton_Roundify_12px_51.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_51.Parent = sharkbite
+TextButton_Roundify_12px_51.Active = true
+TextButton_Roundify_12px_51.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_51.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_51.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_51.Selectable = true
+TextButton_Roundify_12px_51.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_51.ZIndex = 2
+TextButton_Roundify_12px_51.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_51.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_51.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_51.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_51.SliceScale = 0.120
+
+prisonlife.Name = "prisonlife"
+prisonlife.Parent = _4Page
+prisonlife.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+prisonlife.BackgroundTransparency = 1.000
+prisonlife.BorderColor3 = Color3.fromRGB(20, 20, 20)
+prisonlife.BorderSizePixel = 0
+prisonlife.Position = UDim2.new(0.614064336, 0, 0.694202304, 0)
+prisonlife.Size = UDim2.new(0, 106, 0, 76)
+prisonlife.ZIndex = 3
+prisonlife.Font = Enum.Font.GothamBlack
+prisonlife.Text = "PRISON LIFE"
+prisonlife.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonlife.TextSize = 14.000
+prisonlife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+
+end)
+
+TextButton_Roundify_12px_52.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_52.Parent = prisonlife
+TextButton_Roundify_12px_52.Active = true
+TextButton_Roundify_12px_52.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_52.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_52.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_52.Selectable = true
+TextButton_Roundify_12px_52.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_52.ZIndex = 2
+TextButton_Roundify_12px_52.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_52.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_52.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_52.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_52.SliceScale = 0.120
+
+kat.Name = "kat"
+kat.Parent = _4Page
+kat.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+kat.BackgroundTransparency = 1.000
+kat.BorderColor3 = Color3.fromRGB(20, 20, 20)
+kat.BorderSizePixel = 0
+kat.Position = UDim2.new(0.382116973, 0, 0.697407424, 0)
+kat.Size = UDim2.new(0, 106, 0, 75)
+kat.ZIndex = 3
+kat.Font = Enum.Font.GothamBlack
+kat.Text = "KAT"
+kat.TextColor3 = Color3.fromRGB(255, 255, 255)
+kat.TextSize = 14.000
+kat.MouseButton1Down:connect(function()
+	local Camera = game:GetService("Workspace").CurrentCamera
+	local Players = game:GetService("Players")
+	local LocalPlayer = game:GetService("Players").LocalPlayer
+
+	local function GetClosestPlayer()
+		local ClosestPlayer = nil
+		local FarthestDistance = math.huge
+
+		for i, v in pairs(Players.GetPlayers(Players)) do
+			if v ~= LocalPlayer and v.Character and v.Character.FindFirstChild(v.Character, "HumanoidRootPart") then
+				local DistanceFromPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+
+				if DistanceFromPlayer < FarthestDistance then
+					FarthestDistance = DistanceFromPlayer
+					ClosestPlayer = v
+				end
+			end
+		end
+
+		if ClosestPlayer then
+			return ClosestPlayer
+		end
+	end
+
+	local GameMetaTable = getrawmetatable(game)
+	local OldGameMetaTableNamecall = GameMetaTable.__namecall
+	setreadonly(GameMetaTable, false)
+
+	GameMetaTable.__namecall = newcclosure(function(object, ...)
+		local NamecallMethod = getnamecallmethod()
+		local Arguments = {...}
+
+		if tostring(NamecallMethod) == "FindPartOnRayWithIgnoreList" then
+			local ClosestPlayer = GetClosestPlayer()
+
+			if ClosestPlayer and ClosestPlayer.Character then
+				Arguments[1] = Ray.new(Camera.CFrame.Position, (ClosestPlayer.Character.Head.Position - Camera.CFrame.Position).Unit * (Camera.CFrame.Position - ClosestPlayer.Character.Head.Position).Magnitude)
+			end
+		end
+
+		return OldGameMetaTableNamecall(object, unpack(Arguments))
+	end)
+
+	setreadonly(GameMetaTable, true)
+end)
+
+TextButton_Roundify_12px_53.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_53.Parent = kat
+TextButton_Roundify_12px_53.Active = true
+TextButton_Roundify_12px_53.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_53.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_53.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_53.Selectable = true
+TextButton_Roundify_12px_53.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_53.ZIndex = 2
+TextButton_Roundify_12px_53.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_53.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_53.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_53.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_53.SliceScale = 0.120
+
+animpunch.Name = "animpunch"
+animpunch.Parent = _4Page
+animpunch.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+animpunch.BackgroundTransparency = 1.000
+animpunch.BorderColor3 = Color3.fromRGB(20, 20, 20)
+animpunch.BorderSizePixel = 0
+animpunch.Position = UDim2.new(0.150169447, 0, 0.290356159, 0)
+animpunch.Size = UDim2.new(0, 106, 0, 63)
+animpunch.ZIndex = 3
+animpunch.Font = Enum.Font.GothamBlack
+animpunch.Text = "ANIME PUNCH"
+animpunch.TextColor3 = Color3.fromRGB(255, 255, 255)
+animpunch.TextSize = 14.000
+animpunch.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/XuEH0Sb8"))()
+end)
+
+TextButton_Roundify_12px_54.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_54.Parent = animpunch
+TextButton_Roundify_12px_54.Active = true
+TextButton_Roundify_12px_54.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_54.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_54.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_54.Selectable = true
+TextButton_Roundify_12px_54.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_54.ZIndex = 2
+TextButton_Roundify_12px_54.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_54.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_54.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_54.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_54.SliceScale = 0.120
+
+_5Page.Name = "5Page"
+_5Page.Parent = MainPage
+_5Page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_5Page.BackgroundTransparency = 1.000
+_5Page.Position = UDim2.new(0.683876634, 0, 0, 0)
+_5Page.Size = UDim2.new(0, 512, 0, 364)
+_5Page.Visible = false
+_5Page.Image = "rbxassetid://3570695787"
+_5Page.ImageColor3 = Color3.fromRGB(34, 34, 34)
+_5Page.ScaleType = Enum.ScaleType.Slice
+_5Page.SliceCenter = Rect.new(100, 100, 100, 100)
+_5Page.SliceScale = 0.120
+
+xvif.Name = "xvif"
+xvif.Parent = _5Page
+xvif.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvif.BackgroundTransparency = 1.000
+xvif.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvif.BorderSizePixel = 0
+xvif.Position = UDim2.new(0.150169447, 0, 0.0852279663, 0)
+xvif.Size = UDim2.new(0, 106, 0, 63)
+xvif.ZIndex = 3
+xvif.Font = Enum.Font.GothamBlack
+xvif.Text = "XVI"
+xvif.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvif.TextSize = 14.000
+xvif.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_55.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_55.Parent = xvif
+TextButton_Roundify_12px_55.Active = true
+TextButton_Roundify_12px_55.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_55.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_55.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_55.Selectable = true
+TextButton_Roundify_12px_55.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_55.ZIndex = 2
+TextButton_Roundify_12px_55.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_55.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_55.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_55.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_55.SliceScale = 0.120
+
+closep5.Name = "closep5"
+closep5.Parent = _5Page
+closep5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+closep5.BackgroundTransparency = 1.000
+closep5.BorderColor3 = Color3.fromRGB(20, 20, 20)
+closep5.BorderSizePixel = 0
+closep5.Position = UDim2.new(0.932451844, 0, -0.000893812918, 0)
+closep5.Size = UDim2.new(0, 34, 0, 36)
+closep5.ZIndex = 3
+closep5.Font = Enum.Font.GothamBlack
+closep5.Text = "X"
+closep5.TextColor3 = Color3.fromRGB(255, 255, 255)
+closep5.TextSize = 14.000
+closep5.MouseButton1Down:connect(function()
+	MainPage.Visible = false
+	OpenButton.Visible = true
+end)
+
+TextButton_Roundify_12px_56.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_56.Parent = closep5
+TextButton_Roundify_12px_56.Active = true
+TextButton_Roundify_12px_56.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_56.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_56.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_56.Selectable = true
+TextButton_Roundify_12px_56.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_56.ZIndex = 2
+TextButton_Roundify_12px_56.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_56.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_56.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_56.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_56.SliceScale = 0.120
+
+TextLabel_10.Parent = _5Page
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_10.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_10.Position = UDim2.new(0.277955413, 0, 0.0852279663, 0)
+TextLabel_10.Size = UDim2.new(0, 200, 0, 297)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = ""
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 14.000
+
+TextLabel_11.Parent = _5Page
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_11.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_11.Position = UDim2.new(0.150169492, 0, 0.192792952, 0)
+TextLabel_11.Size = UDim2.new(0, 343, 0, 207)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = ""
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 14.000
+
+xvik.Name = "xvik"
+xvik.Parent = _5Page
+xvik.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvik.BackgroundTransparency = 1.000
+xvik.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvik.BorderSizePixel = 0
+xvik.Position = UDim2.new(0.379928768, 0, 0.0852279663, 0)
+xvik.Size = UDim2.new(0, 106, 0, 63)
+xvik.ZIndex = 3
+xvik.Font = Enum.Font.GothamBlack
+xvik.Text = "XVI"
+xvik.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvik.TextSize = 14.000
+xvik.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_57.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_57.Parent = xvik
+TextButton_Roundify_12px_57.Active = true
+TextButton_Roundify_12px_57.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_57.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_57.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_57.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_57.Selectable = true
+TextButton_Roundify_12px_57.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_57.ZIndex = 2
+TextButton_Roundify_12px_57.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_57.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_57.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_57.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_57.SliceScale = 0.120
+
+xvij.Name = "xvij"
+xvij.Parent = _5Page
+xvij.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvij.BackgroundTransparency = 1.000
+xvij.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvij.BorderSizePixel = 0
+xvij.Position = UDim2.new(0.614064395, 0, 0.0852279663, 0)
+xvij.Size = UDim2.new(0, 106, 0, 63)
+xvij.ZIndex = 3
+xvij.Font = Enum.Font.GothamBlack
+xvij.Text = "XVI"
+xvij.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvij.TextSize = 14.000
+xvij.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_58.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_58.Parent = xvij
+TextButton_Roundify_12px_58.Active = true
+TextButton_Roundify_12px_58.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_58.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_58.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_58.Selectable = true
+TextButton_Roundify_12px_58.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_58.ZIndex = 2
+TextButton_Roundify_12px_58.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_58.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_58.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_58.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_58.SliceScale = 0.120
+
+xvig.Name = "xvig"
+xvig.Parent = _5Page
+xvig.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvig.BackgroundTransparency = 1.000
+xvig.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvig.BorderSizePixel = 0
+xvig.Position = UDim2.new(0.150169447, 0, 0.290356159, 0)
+xvig.Size = UDim2.new(0, 106, 0, 63)
+xvig.ZIndex = 3
+xvig.Font = Enum.Font.GothamBlack
+xvig.Text = "XVI"
+xvig.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvig.TextSize = 14.000
+xvig.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_59.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_59.Parent = xvig
+TextButton_Roundify_12px_59.Active = true
+TextButton_Roundify_12px_59.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_59.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_59.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_59.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_59.Selectable = true
+TextButton_Roundify_12px_59.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_59.ZIndex = 2
+TextButton_Roundify_12px_59.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_59.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_59.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_59.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_59.SliceScale = 0.120
+
+xvil.Name = "xvil"
+xvil.Parent = _5Page
+xvil.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvil.BackgroundTransparency = 1.000
+xvil.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvil.BorderSizePixel = 0
+xvil.Position = UDim2.new(0.150169447, 0, 0.492279202, 0)
+xvil.Size = UDim2.new(0, 106, 0, 63)
+xvil.ZIndex = 3
+xvil.Font = Enum.Font.GothamBlack
+xvil.Text = "XVI"
+xvil.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvil.TextSize = 14.000
+xvil.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_60.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_60.Parent = xvil
+TextButton_Roundify_12px_60.Active = true
+TextButton_Roundify_12px_60.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_60.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_60.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_60.Selectable = true
+TextButton_Roundify_12px_60.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_60.ZIndex = 2
+TextButton_Roundify_12px_60.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_60.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_60.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_60.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_60.SliceScale = 0.120
+
+xvim.Name = "xvim"
+xvim.Parent = _5Page
+xvim.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvim.BackgroundTransparency = 1.000
+xvim.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvim.BorderSizePixel = 0
+xvim.Position = UDim2.new(0.150169492, 0, 0.697407484, 0)
+xvim.Size = UDim2.new(0, 106, 0, 75)
+xvim.ZIndex = 3
+xvim.Font = Enum.Font.GothamBlack
+xvim.Text = "XVI"
+xvim.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvim.TextSize = 14.000
+xvim.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_61.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_61.Parent = xvim
+TextButton_Roundify_12px_61.Active = true
+TextButton_Roundify_12px_61.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_61.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_61.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_61.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_61.Selectable = true
+TextButton_Roundify_12px_61.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_61.ZIndex = 2
+TextButton_Roundify_12px_61.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_61.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_61.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_61.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_61.SliceScale = 0.120
+
+xvii.Name = "xvii"
+xvii.Parent = _5Page
+xvii.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvii.BackgroundTransparency = 1.000
+xvii.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvii.BorderSizePixel = 0
+xvii.Position = UDim2.new(0.382116944, 0, 0.290356159, 0)
+xvii.Size = UDim2.new(0, 106, 0, 63)
+xvii.ZIndex = 3
+xvii.Font = Enum.Font.GothamBlack
+xvii.Text = "XVI"
+xvii.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvii.TextSize = 14.000
+xvii.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_62.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_62.Parent = xvii
+TextButton_Roundify_12px_62.Active = true
+TextButton_Roundify_12px_62.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_62.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_62.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_62.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_62.Selectable = true
+TextButton_Roundify_12px_62.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_62.ZIndex = 2
+TextButton_Roundify_12px_62.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_62.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_62.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_62.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_62.SliceScale = 0.120
+
+xvih.Name = "xvih"
+xvih.Parent = _5Page
+xvih.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvih.BackgroundTransparency = 1.000
+xvih.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvih.BorderSizePixel = 0
+xvih.Position = UDim2.new(0.614064395, 0, 0.290356159, 0)
+xvih.Size = UDim2.new(0, 106, 0, 63)
+xvih.ZIndex = 3
+xvih.Font = Enum.Font.GothamBlack
+xvih.Text = "XVI"
+xvih.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvih.TextSize = 14.000
+xvih.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_63.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_63.Parent = xvih
+TextButton_Roundify_12px_63.Active = true
+TextButton_Roundify_12px_63.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_63.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_63.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_63.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_63.Selectable = true
+TextButton_Roundify_12px_63.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_63.ZIndex = 2
+TextButton_Roundify_12px_63.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_63.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_63.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_63.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_63.SliceScale = 0.120
+
+xviq.Name = "xviq"
+xviq.Parent = _5Page
+xviq.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xviq.BackgroundTransparency = 1.000
+xviq.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xviq.BorderSizePixel = 0
+xviq.Position = UDim2.new(0.382116944, 0, 0.492279232, 0)
+xviq.Size = UDim2.new(0, 106, 0, 63)
+xviq.ZIndex = 3
+xviq.Font = Enum.Font.GothamBlack
+xviq.Text = "XVI"
+xviq.TextColor3 = Color3.fromRGB(255, 255, 255)
+xviq.TextSize = 14.000
+xviq.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_64.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_64.Parent = xviq
+TextButton_Roundify_12px_64.Active = true
+TextButton_Roundify_12px_64.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_64.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_64.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_64.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_64.Selectable = true
+TextButton_Roundify_12px_64.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_64.ZIndex = 2
+TextButton_Roundify_12px_64.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_64.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_64.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_64.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_64.SliceScale = 0.120
+
+xvin.Name = "xvin"
+xvin.Parent = _5Page
+xvin.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvin.BackgroundTransparency = 1.000
+xvin.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvin.BorderSizePixel = 0
+xvin.Position = UDim2.new(0.614064395, 0, 0.492279232, 0)
+xvin.Size = UDim2.new(0, 106, 0, 63)
+xvin.ZIndex = 3
+xvin.Font = Enum.Font.GothamBlack
+xvin.Text = "XVI"
+xvin.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvin.TextSize = 14.000
+xvin.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_65.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_65.Parent = xvin
+TextButton_Roundify_12px_65.Active = true
+TextButton_Roundify_12px_65.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_65.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_65.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_65.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_65.Selectable = true
+TextButton_Roundify_12px_65.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_65.ZIndex = 2
+TextButton_Roundify_12px_65.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_65.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_65.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_65.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_65.SliceScale = 0.120
+
+xvip.Name = "xvip"
+xvip.Parent = _5Page
+xvip.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvip.BackgroundTransparency = 1.000
+xvip.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvip.BorderSizePixel = 0
+xvip.Position = UDim2.new(0.614064455, 0, 0.694202304, 0)
+xvip.Size = UDim2.new(0, 106, 0, 76)
+xvip.ZIndex = 3
+xvip.Font = Enum.Font.GothamBlack
+xvip.Text = "XVI"
+xvip.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvip.TextSize = 14.000
+xvip.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_66.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_66.Parent = xvip
+TextButton_Roundify_12px_66.Active = true
+TextButton_Roundify_12px_66.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_66.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_66.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_66.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_66.Selectable = true
+TextButton_Roundify_12px_66.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_66.ZIndex = 2
+TextButton_Roundify_12px_66.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_66.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_66.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_66.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_66.SliceScale = 0.120
+
+xvio.Name = "xvio"
+xvio.Parent = _5Page
+xvio.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+xvio.BackgroundTransparency = 1.000
+xvio.BorderColor3 = Color3.fromRGB(20, 20, 20)
+xvio.BorderSizePixel = 0
+xvio.Position = UDim2.new(0.382116914, 0, 0.697407484, 0)
+xvio.Size = UDim2.new(0, 106, 0, 75)
+xvio.ZIndex = 3
+xvio.Font = Enum.Font.GothamBlack
+xvio.Text = "XVI"
+xvio.TextColor3 = Color3.fromRGB(255, 255, 255)
+xvio.TextSize = 14.000
+xvio.MouseButton1Down:connect(function()
+
+end)
+
+TextButton_Roundify_12px_67.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_67.Parent = xvio
+TextButton_Roundify_12px_67.Active = true
+TextButton_Roundify_12px_67.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_67.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_67.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_67.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_67.Selectable = true
+TextButton_Roundify_12px_67.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_67.ZIndex = 2
+TextButton_Roundify_12px_67.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_67.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_67.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_67.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_67.SliceScale = 0.120
+
+MiscPage.Name = "MiscPage"
+MiscPage.Parent = MainPage
+MiscPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MiscPage.BackgroundTransparency = 1.000
+MiscPage.Position = UDim2.new(0.683876634, 0, 0, 0)
+MiscPage.Size = UDim2.new(0, 511, 0, 364)
+MiscPage.Visible = false
+MiscPage.Image = "rbxassetid://3570695787"
+MiscPage.ImageColor3 = Color3.fromRGB(34, 34, 34)
+MiscPage.ScaleType = Enum.ScaleType.Slice
+MiscPage.SliceCenter = Rect.new(100, 100, 100, 100)
+MiscPage.SliceScale = 0.120
+
+closemisc.Name = "closemisc"
+closemisc.Parent = MiscPage
+closemisc.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+closemisc.BackgroundTransparency = 1.000
+closemisc.BorderColor3 = Color3.fromRGB(20, 20, 20)
+closemisc.BorderSizePixel = 0
+closemisc.Position = UDim2.new(0.932467103, 0, -0.000893812918, 0)
+closemisc.Size = UDim2.new(0, 34, 0, 36)
+closemisc.ZIndex = 3
+closemisc.Font = Enum.Font.GothamBlack
+closemisc.Text = "X"
+closemisc.TextColor3 = Color3.fromRGB(255, 255, 255)
+closemisc.TextSize = 14.000
+closemisc.MouseButton1Down:connect(function()
+	MainPage.Visible = false
+	OpenButton.Visible = true
+end)
+
+TextButton_Roundify_12px_68.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_68.Parent = closemisc
+TextButton_Roundify_12px_68.Active = true
+TextButton_Roundify_12px_68.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_68.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_68.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_68.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_68.Selectable = true
+TextButton_Roundify_12px_68.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_68.ZIndex = 2
+TextButton_Roundify_12px_68.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_68.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_68.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_68.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_68.SliceScale = 0.120
+
+TextLabel_12.Parent = MiscPage
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_12.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_12.Position = UDim2.new(0.277955443, 0, 0.0884330943, 0)
+TextLabel_12.Size = UDim2.new(0, 174, 0, 242)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = ""
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextSize = 14.000
+
+TextLabel_13.Parent = MiscPage
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_13.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_13.Position = UDim2.new(0.150169417, 0, 0.192792952, 0)
+TextLabel_13.Size = UDim2.new(0, 258, 0, 215)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = ""
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextSize = 14.000
+
+vravatar.Name = "vravatar"
+vravatar.Parent = MiscPage
+vravatar.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+vravatar.BackgroundTransparency = 1.000
+vravatar.BorderColor3 = Color3.fromRGB(20, 20, 20)
+vravatar.BorderSizePixel = 0
+vravatar.Position = UDim2.new(0.150169462, 0, 0.0852279663, 0)
+vravatar.Size = UDim2.new(0, 258, 0, 63)
+vravatar.ZIndex = 3
+vravatar.Font = Enum.Font.GothamBlack
+vravatar.Text = "VR AVATAR"
+vravatar.TextColor3 = Color3.fromRGB(255, 255, 255)
+vravatar.TextSize = 14.000
+vravatar.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/t5A9ZHvU'))();
+
+end)
+
+TextButton_Roundify_12px_69.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_69.Parent = vravatar
+TextButton_Roundify_12px_69.Active = true
+TextButton_Roundify_12px_69.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_69.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_69.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_69.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_69.Selectable = true
+TextButton_Roundify_12px_69.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_69.ZIndex = 2
+TextButton_Roundify_12px_69.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_69.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_69.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_69.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_69.SliceScale = 0.120
+
+notepadexe.Name = "notepadexe"
+notepadexe.Parent = MiscPage
+notepadexe.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+notepadexe.BackgroundTransparency = 1.000
+notepadexe.BorderColor3 = Color3.fromRGB(20, 20, 20)
+notepadexe.BorderSizePixel = 0
+notepadexe.Position = UDim2.new(0.150169462, 0, 0.290356159, 0)
+notepadexe.Size = UDim2.new(0, 258, 0, 63)
+notepadexe.ZIndex = 3
+notepadexe.Font = Enum.Font.GothamBlack
+notepadexe.Text = "NOTEPAD"
+notepadexe.TextColor3 = Color3.fromRGB(255, 255, 255)
+notepadexe.TextSize = 14.000
+notepadexe.MouseButton1Down:connect(function()
+OpenNotes.Visible = true
+end)
+
+TextButton_Roundify_12px_70.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_70.Parent = notepadexe
+TextButton_Roundify_12px_70.Active = true
+TextButton_Roundify_12px_70.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_70.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_70.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_70.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_70.Selectable = true
+TextButton_Roundify_12px_70.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_70.ZIndex = 2
+TextButton_Roundify_12px_70.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_70.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_70.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_70.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_70.SliceScale = 0.120
+
+punchgui.Name = "punchgui"
+punchgui.Parent = MiscPage
+punchgui.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+punchgui.BackgroundTransparency = 1.000
+punchgui.BorderColor3 = Color3.fromRGB(20, 20, 20)
+punchgui.BorderSizePixel = 0
+punchgui.Position = UDim2.new(0.150169462, 0, 0.492279261, 0)
+punchgui.Size = UDim2.new(0, 258, 0, 63)
+punchgui.ZIndex = 3
+punchgui.Font = Enum.Font.GothamBlack
+punchgui.Text = "PUNCH GUI"
+punchgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+punchgui.TextSize = 14.000
+punchgui.MouseButton1Down:connect(function()
+
+
+	local Classes = loadstring(game:HttpGet('https://pastebin.com/raw/2muvijsJ',true))()
+
+	local Tab = Classes.Tab(game.CoreGui)
+
+	local Enabled_Box = Classes.Checkbox(Tab,true)
+	local Anim_Box = Classes.Checkbox(Tab,true)
+	local Kill_Box  = Classes.Checkbox(Tab,true)
+	local Power_Label = Classes.Label(Tab)
+	local Power_Slider = Classes.Slider(Tab)
+	local Punch_Text = Classes.TextBox(Tab)
+
+	local Keys = {
+		Punch = "q",
+		Previous_Mode = "z",
+		Next_Mode = "x",
+	}
+
+	Tab.Titulo.Text = "Punch UI v2"
+
+	Enabled_Box.Titulo.Text = "Punch Enabled"
+	Anim_Box.Titulo.Text = "Animations"
+	Kill_Box.Titulo.Text = "Kill Cam"
+
+	Power_Slider:SetarMaximo(50000)
+	Power_Slider:SetarIntervalo(10)
+	Power_Slider:SetarPadrao(30000)
+
+	Punch_Text.Titulo.Text = "Punch Key"
+	Punch_Text.Box.Text = Keys.Punch
+	Punch_Text.Mudou = function(Valor)
+		Punch_Key = Valor
+	end
+	Power_Slider.Mudou = function(Valor)
+		local Txt = "Power: " .. Valor
+		if Valor >= 49000 then
+			Txt = "Power: INF"
+		end
+		Power_Label.Text = Txt
+	end
+	Power_Label.Text = "Power: " .. 50000
+	Punch_Text.Box:GetPropertyChangedSignal("Text"):Connect(function()
+		wait()
+		local txt = Punch_Text.Box.Text
+		if txt:len() > 1 then
+			Punch_Text.Box.Text = txt:sub(2,2)
+		end
+		Keys.Punch = Punch_Text.Box.Text:lower()
+	end)
+	local Player = game:GetService("Players").LocalPlayer
+	local Mouse = Player:GetMouse()
+	local StarterGui = game:GetService("StarterGui")
+	local Character = Player.Character or workspace:WaitForChild(Player.Name)
+	local CAM = false
+	local GuiHidden = false
+	local PunchingEnabled = true
+	local AnimationsId = {
+		R6 = "rbxassetid://204062532",
+		R15 = "rbxassetid://846744780"
+	}
+	local function NewAnimation(ID)
+		local Animation = Instance.new("Animation")
+		Animation.AnimationId = ID
+		return Animation
+	end
+	local R15Animation = NewAnimation(AnimationsId.R15)
+	local R6Animation = NewAnimation(AnimationsId.R6)
+
+	local function GetAnimation(Humanoid)
+		if Humanoid.RigType == Enum.HumanoidRigType.R15 then
+			return Humanoid:LoadAnimation(R15Animation)
+		else
+			return Humanoid:LoadAnimation(R6Animation)
+		end
+	end
+	local keysf = {
+		"Push","Fling","Kill","Void"
+	}
+	local function UpdateText()
+		MLabel.Text = keysf[Current_Mode]
+	end
+	local CamIN = false
+	local function DoCam(Part)
+		CamIN = true
+		local Camera = workspace.CurrentCamera
+		Camera.CameraSubject = Part
+		wait(1.85)
+		Camera.CameraSubject = Player.Character:FindFirstChild("Head")
+		CamIN = false
+	end
+	local Punching = false
+	local function Punch()
+		if not Enabled_Box.Estado then
+			return
+		end
+		if Punching then
+			return  
+		end
+		Punching = true
+		local Humanoid = Character.Humanoid
+		local RootPart = Character.PrimaryPart
+		Humanoid:UnequipTools()
+		Player.Character.Humanoid:ChangeState(11)
+		wait()
+		local Tool = Player.Backpack:FindFirstChildOfClass("Tool")
+		if Tool == nil then   
+			local Args = {
+				Title = "PUNCH SCRIPT",
+				Text = "ERROR, You need a tool.",
+				Icon = "http://www.roblox.com/asset/?id=41363725",
+				Duration = 7,
+			}
+			StarterGui:SetCore("SendNotification",Args)
+			return
+		end
+		local AnimationId
+		local AnimationTrack = GetAnimation(Humanoid)
+		if Anim_Box.Estado then
+			AnimationTrack:Play()
+		end           
+		wait()
+		Player.Character.Humanoid:ChangeState(11)
+		local OriginalGrip = Tool.GripPos
+		Tool.Parent = Player.Character
+		local Power = Power_Slider.Valor
+		local PowerY = Power/2
+		if Power == 50000 then
+			Power = math.huge
+			PowerY = math.huge
+		end		
+		Tool.GripPos = Vector3.new(Power,PowerY,Power)
+		wait(0.35)
+
+		Tool.GripPos = OriginalGrip	
+		game.Players.LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+		wait()
+		Punching = false
+	end
+	local function Next_Mode()
+		local Next = Current_Mode + 1
+		if Next > #Power_Modes then
+			Current_Mode = 1
+		else
+			Current_Mode = Next
+		end
+		UpdateText()
+	end
+	local DownKeys = {}
+	local function KeyDown(Key)
+		if Key == Keys.Punch then
+			Punch()
+		end
+	end
+	Mouse.KeyDown:Connect(KeyDown)
+	local function hand(what)
+		if game:GetService("Players"):GetPlayerFromCharacter(what.Parent) then
+			if Kill_Box.Estado and Punching and not CamIN then
+				DoCam(what.Parent:FindFirstChild("Head") or what)
+			end
+		end
+	end
+	Player.CharacterAdded:Connect(function()
+		Character = Player.Character
+		wait(1)
+		local Hand = Character:FindFirstChild("RightHand") or Character:FindFirstChild("Right Arm")
+		if Hand then
+			Hand.Touched:Connect(hand)
+		end
+	end)
+	wait()
+	local Hand = Character:FindFirstChild("RightHand") or Character:FindFirstChild("Right Arm")
+	if Hand then
+		Hand.Touched:Connect(hand)
+	end
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if Punching then
+			Player.Character.Humanoid:ChangeState(11)
+		end
+	end)
+	game:GetService("StarterGui"):SetCore("SendNotification",{Title = "SCRIPT",Text = "By OOF#6666 press J to hide!",Duration = 12})
+	Character.Animate.toolnone.ToolNoneAnim.AnimationId = "000000"
+
+
+
+
+
+end)
+
+TextButton_Roundify_12px_71.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_71.Parent = punchgui
+TextButton_Roundify_12px_71.Active = true
+TextButton_Roundify_12px_71.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_71.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_71.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_71.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_71.Selectable = true
+TextButton_Roundify_12px_71.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_71.ZIndex = 2
+TextButton_Roundify_12px_71.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_71.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_71.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_71.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_71.SliceScale = 0.120
+
+trollgui.Name = "trollgui"
+trollgui.Parent = MiscPage
+trollgui.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+trollgui.BackgroundTransparency = 1.000
+trollgui.BorderColor3 = Color3.fromRGB(20, 20, 20)
+trollgui.BorderSizePixel = 0
+trollgui.Position = UDim2.new(0.150169462, 0, 0.670850694, 0)
+trollgui.Size = UDim2.new(0, 258, 0, 63)
+trollgui.ZIndex = 3
+trollgui.Font = Enum.Font.GothamBlack
+trollgui.Text = "TROLL GUI"
+trollgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+trollgui.TextSize = 14.000
+trollgui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/9UtBscMx", true))()
+
+end)
+
+TextButton_Roundify_12px_72.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_72.Parent = trollgui
+TextButton_Roundify_12px_72.Active = true
+TextButton_Roundify_12px_72.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_72.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_72.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_72.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_72.Selectable = true
+TextButton_Roundify_12px_72.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_72.ZIndex = 2
+TextButton_Roundify_12px_72.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_72.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_72.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_72.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_72.SliceScale = 0.120
+
+TextLabel_14.Parent = MiscPage
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_14.Position = UDim2.new(0.733097672, 0, 0.146510497, 0)
+TextLabel_14.Size = UDim2.new(0, 113, 0, 23)
+TextLabel_14.Font = Enum.Font.GothamBlack
+TextLabel_14.Text = "Script made by"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_14.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_15.Parent = MiscPage
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_15.Position = UDim2.new(0.733097672, 0, 0.210613057, 0)
+TextLabel_15.Size = UDim2.new(0, 113, 0, 23)
+TextLabel_15.Font = Enum.Font.GothamBlack
+TextLabel_15.Text = "one#9143"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_15.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_16.Parent = MiscPage
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_16.Position = UDim2.new(0.733097672, 0, 0.287536055, 0)
+TextLabel_16.Size = UDim2.new(0, 121, 0, 23)
+TextLabel_16.Font = Enum.Font.GothamBlack
+TextLabel_16.Text = "It will not receive"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_16.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_17.Parent = MiscPage
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_17.Position = UDim2.new(0.733097672, 0, 0.361254007, 0)
+TextLabel_17.Size = UDim2.new(0, 121, 0, 23)
+TextLabel_17.Font = Enum.Font.GothamBlack
+TextLabel_17.Text = "updates unless"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_17.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_18.Parent = MiscPage
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_18.Position = UDim2.new(0.733097672, 0, 0.434971929, 0)
+TextLabel_18.Size = UDim2.new(0, 121, 0, 23)
+TextLabel_18.Font = Enum.Font.GothamBlack
+TextLabel_18.Text = "necessary."
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_18.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_19.Parent = MiscPage
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_19.Position = UDim2.new(0.752667129, 0, 0.919404209, 0)
+TextLabel_19.Size = UDim2.new(0, 121, 0, 23)
+TextLabel_19.Font = Enum.Font.GothamBlack
+TextLabel_19.Text = "Version X"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextXAlignment = Enum.TextXAlignment.Right
+TextLabel_19.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_20.Parent = MiscPage
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_20.Position = UDim2.new(0.752667129, 0, 0.858506739, 0)
+TextLabel_20.Size = UDim2.new(0, 121, 0, 23)
+TextLabel_20.Font = Enum.Font.GothamBlack
+TextLabel_20.Text = "Ultra X"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextXAlignment = Enum.TextXAlignment.Right
+TextLabel_20.TextYAlignment = Enum.TextYAlignment.Top
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = Main
+OpenButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+OpenButton.BackgroundTransparency = 1.000
+OpenButton.BorderColor3 = Color3.fromRGB(20, 20, 20)
+OpenButton.BorderSizePixel = 0
+OpenButton.Position = UDim2.new(0, 0, 0.453987718, 0)
+OpenButton.Size = UDim2.new(0, 56, 0, 38)
+OpenButton.ZIndex = 2
+OpenButton.Font = Enum.Font.Cartoon
+OpenButton.Text = "XVI"
+OpenButton.TextColor3 = Color3.fromRGB(34, 34, 34)
+OpenButton.TextSize = 24.000
+OpenButton.MouseButton1Down:connect(function()
+	OpenButton.Visible = false
+	MainPage.Visible = true
+end)
+
+TextButton_Roundify_12px_73.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_73.Parent = OpenButton
+TextButton_Roundify_12px_73.Active = true
+TextButton_Roundify_12px_73.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_73.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_73.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_73.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_73.Selectable = true
+TextButton_Roundify_12px_73.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_73.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_73.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_73.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_73.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_73.SliceScale = 0.120
+
+Notepad.Name = "Notepad"
+Notepad.Parent = Main
+Notepad.Active = true
+Notepad.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Notepad.BackgroundTransparency = 1.000
+Notepad.Position = UDim2.new(0.0699152499, 0, 0.195092022, 0)
+Notepad.Size = UDim2.new(0, 193, 0, 249)
+Notepad.Visible = false
+Notepad.Image = "rbxassetid://3570695787"
+Notepad.ImageColor3 = Color3.fromRGB(34, 34, 34)
+Notepad.ScaleType = Enum.ScaleType.Slice
+Notepad.SliceCenter = Rect.new(100, 100, 100, 100)
+Notepad.SliceScale = 0.120
+Notepad.Draggable = true
+
+TextLabel_21.Parent = Notepad
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Size = UDim2.new(0, 193, 0, 50)
+TextLabel_21.ZIndex = 2
+TextLabel_21.Font = Enum.Font.GothamBlack
+TextLabel_21.Text = "NOTEPAD"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = TextLabel_21
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageTransparency = 1.000
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+TextButton.Parent = Notepad
+TextButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.808290184, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 37, 0, 38)
+TextButton.ZIndex = 2
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 22.000
+TextButton.MouseButton1Down:connect(function()
+	Notepad.Visible = false
+	OpenNotes.Visible = true
+end)
+
+TextButton_Roundify_12px_74.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_74.Parent = TextButton
+TextButton_Roundify_12px_74.Active = true
+TextButton_Roundify_12px_74.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_74.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_74.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_74.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_74.Selectable = true
+TextButton_Roundify_12px_74.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_74.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_74.ImageColor3 = Color3.fromRGB(34, 34, 34)
+TextButton_Roundify_12px_74.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_74.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_74.SliceScale = 0.120
+
+TextBox.Parent = Notepad
+TextBox.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextBox.Position = UDim2.new(0.0310880821, 0, 0.20080322, 0)
+TextBox.Size = UDim2.new(0, 180, 0, 23)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "txt"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+TextBox_2.Parent = Notepad
+TextBox_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_2.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_2.Position = UDim2.new(0.0310880821, 0, 0.293172687, 0)
+TextBox_2.Size = UDim2.new(0, 180, 0, 23)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = "txt"
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextSize = 14.000
+TextBox_2.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_2.TextYAlignment = Enum.TextYAlignment.Top
+
+TextBox_3.Parent = Notepad
+TextBox_3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_3.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_3.Position = UDim2.new(0.0310880821, 0, 0.385542154, 0)
+TextBox_3.Size = UDim2.new(0, 180, 0, 23)
+TextBox_3.Font = Enum.Font.SourceSans
+TextBox_3.Text = "txt"
+TextBox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.TextSize = 14.000
+TextBox_3.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_3.TextYAlignment = Enum.TextYAlignment.Top
+
+TextBox_4.Parent = Notepad
+TextBox_4.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_4.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_4.Position = UDim2.new(0.0310880821, 0, 0.570281088, 0)
+TextBox_4.Size = UDim2.new(0, 180, 0, 23)
+TextBox_4.Font = Enum.Font.SourceSans
+TextBox_4.Text = "txt"
+TextBox_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_4.TextSize = 14.000
+TextBox_4.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_4.TextYAlignment = Enum.TextYAlignment.Top
+
+TextBox_5.Parent = Notepad
+TextBox_5.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_5.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_5.Position = UDim2.new(0.0310880821, 0, 0.662650585, 0)
+TextBox_5.Size = UDim2.new(0, 180, 0, 23)
+TextBox_5.Font = Enum.Font.SourceSans
+TextBox_5.Text = "txt"
+TextBox_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_5.TextSize = 14.000
+TextBox_5.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_5.TextYAlignment = Enum.TextYAlignment.Top
+
+TextBox_6.Parent = Notepad
+TextBox_6.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_6.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_6.Position = UDim2.new(0.0310880821, 0, 0.755020082, 0)
+TextBox_6.Size = UDim2.new(0, 180, 0, 23)
+TextBox_6.Font = Enum.Font.SourceSans
+TextBox_6.Text = "txt"
+TextBox_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_6.TextSize = 14.000
+TextBox_6.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_6.TextYAlignment = Enum.TextYAlignment.Top
+
+TextBox_7.Parent = Notepad
+TextBox_7.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_7.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_7.Position = UDim2.new(0.0310880821, 0, 0.847389579, 0)
+TextBox_7.Size = UDim2.new(0, 180, 0, 23)
+TextBox_7.Font = Enum.Font.SourceSans
+TextBox_7.Text = ""
+TextBox_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_7.TextSize = 14.000
+TextBox_7.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_7.TextYAlignment = Enum.TextYAlignment.Top
+
+TextBox_8.Parent = Notepad
+TextBox_8.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_8.BorderColor3 = Color3.fromRGB(34, 34, 34)
+TextBox_8.Position = UDim2.new(0.0310880821, 0, 0.477911621, 0)
+TextBox_8.Size = UDim2.new(0, 180, 0, 23)
+TextBox_8.Font = Enum.Font.SourceSans
+TextBox_8.Text = "txt"
+TextBox_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_8.TextSize = 14.000
+TextBox_8.TextXAlignment = Enum.TextXAlignment.Left
+TextBox_8.TextYAlignment = Enum.TextYAlignment.Top
+
+OpenNotes.Name = "OpenNotes"
+OpenNotes.Parent = Main
+OpenNotes.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+OpenNotes.BackgroundTransparency = 1.000
+OpenNotes.BorderColor3 = Color3.fromRGB(20, 20, 20)
+OpenNotes.BorderSizePixel = 0
+OpenNotes.Position = UDim2.new(0, 0, 0.905521452, 0)
+OpenNotes.Size = UDim2.new(0, 45, 0, 29)
+OpenNotes.Visible = false
+OpenNotes.ZIndex = 2
+OpenNotes.Font = Enum.Font.Cartoon
+OpenNotes.Text = "NOTES"
+OpenNotes.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenNotes.TextSize = 13.000
+OpenNotes.MouseButton1Down:connect(function()
+	Notepad.Visible = true
+	OpenNotes.Visible = false
+end)
+
+TextButton_Roundify_12px_75.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_75.Parent = OpenNotes
+TextButton_Roundify_12px_75.Active = true
+TextButton_Roundify_12px_75.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_75.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_75.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_75.Selectable = true
+TextButton_Roundify_12px_75.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_75.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_75.ImageColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_Roundify_12px_75.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_75.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_75.SliceScale = 0.120
