@@ -196,7 +196,7 @@ local TextButton_Roundify_12px_75 = Instance.new("ImageLabel")
 --Properties:
 
 Main.Name = "Main"
-Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.Parent = game.CoreGui
 
 MainPage.Name = "MainPage"
 MainPage.Parent = Main
